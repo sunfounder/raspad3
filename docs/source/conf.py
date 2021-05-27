@@ -21,7 +21,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'SunFounder Raspberry Pi Tablet - RasPad 3'
+project = 'SunFounder Raspberry Pi Tablet - RasPad3'
 copyright = '2021, SunFounder'
 author = 'www.sunfounder.com'
 
