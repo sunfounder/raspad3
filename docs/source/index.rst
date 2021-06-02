@@ -3,7 +3,7 @@ SunFounder Raspberry Pi Tablet - RasPad 3
 
 An ideal programming Raspberry Pi tablet perfectly compatible with Raspberry Pi 4B. RasPad 3 with internal 10.1 inch IPS Pi touchscreen LCD monitor, high resolution of 1280×800 pixels, 10-finger touch, 5 hours long battery life. 
 
-Easily assemble with 2 steps to get started anytime anywhere. Triangular structure design and six-axis acceleration sensor, which can be placed flat or upright on the table, or rotate it 90°/180°/270° to give amazing presentations. Two fans and speaker are embedded in the shell, cooling down your Raspberry Pi and making your project have more possibilities!
+Easily assemble with 2 steps to get started anytime anywhere. Triangular structure design and six-axis acceleration sensor, which can be placed flat or upright on the table, or rotate it 90°/180°/270° to give amazing presentations. Including two speakers and a fan, cooling down your Raspberry Pi and making your project have more possibilities!
 
 With all the Raspberry Pi ports, including Ethernet, HDMI, Audio, USB, and Power. By leveraging the HDMI, you can easily extend RasPad with other monitors for better multitasking or mirror your display. Reserve the Raspberry Pi 40Pin I/O port and CSI interface expansion method. Using the 40pin cable to expand the I/O port to the breadboard can build projects or install cameras for RasPad. 
 

@@ -153,9 +153,6 @@ and plug a mouse and a keyboard.
 
 Now, you can control your computer on RasPad.
 
-.. note::
-
-    The touch function is invalid at the moment.
 
 .. image:: img/assembling39.png
   :width: 600
