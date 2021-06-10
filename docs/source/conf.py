@@ -54,7 +54,7 @@ html_theme = 'furo'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_js_files = [
-    'https://ezblock.cc/readDocFile/topHead.js',
+    'https://ezblock.cc/readDocFile/raspad.js',
 ]
 html_css_files = [
     'https://ezblock.cc/readDocFile/topHead.css',
