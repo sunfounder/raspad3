@@ -14,13 +14,16 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+
+
 import sphinx_rtd_theme
+
 
 # -- Project information -----------------------------------------------------
 
-project = 'raspad3'
-copyright = '2021, sunfounder'
-author = 'sunfounder'
+project = 'SunFounder Raspberry Pi Tablet - RasPad3'
+copyright = '2021, SunFounder'
+author = 'www.sunfounder.com'
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,7 +31,7 @@ author = 'sunfounder'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
+extensions = ['sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -50,7 +53,7 @@ exclude_patterns = []
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_theme = 'furo'
+html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_js_files = [
@@ -59,3 +62,4 @@ html_js_files = [
 html_css_files = [
     'https://ezblock.cc/readDocFile/topHead.css',
 ]
+
