@@ -1,5 +1,15 @@
 Quick User Guide
 ===================
+* :ref:`Interfaces Introduction`
+* :ref:`Power on the RasPad`
+* :ref:`Volume and Brightness Settings`
+* :ref:`Install Virtual Keyboard on RasPad`
+* :ref:`Right Click on RasPad`
+* :ref:`Connect Headphones or Other Screens`
+
+
+Interfaces Introduction
+--------------------------
 
 .. image:: img/assembling16.png
   :width: 600
@@ -8,6 +18,9 @@ Quick User Guide
 .. image:: img/assembling17.png
   :width: 600
   :align: center
+
+Power on the RasPad
+------------------------
 
 Now, insert the SD card firmly.
 
@@ -66,12 +79,8 @@ RasPad is booting up.
   :width: 600
   :align: center
 
-Go to the RasPad main page. The required softwares are listed on this page as 
-shown. You can check FAQ at first if encounter any problems.
-
-.. image:: img/assembling26.png
-  :width: 600
-  :align: center
+Volume and Brightness Settings
+--------------------------------------
 
 Now, the red LED is lit up, that is to say the RasPad is on.
 
@@ -117,6 +126,107 @@ Then press these two buttons to adjust volume.
   :width: 600
   :align: center
 
+Install Virtual Keyboard on RasPad
+-------------------------------------
+
+When you use a touch panel such as RasPad, you can connect an external keyboard to help you do a text input operation, but it is best to install a virtual keyboard.
+
+Install the required software with the following command.
+
+.. code-block:: shell
+
+  sudo apt install onboard
+  sudo apt install at-spi2-core
+
+In order to make the virtual keyboard have a better effect, you need to do further settings.
+
+Click the Raspberry Pi icon in the upper left corner and select **Preferences** -> **Onboard Settings**.
+
+.. image:: img/onboard.png
+
+In the **General** option, check the following 2 items. When you check **Automatically display when editing text**, you will be prompted to reboot, you can reboot after all settings are complete.
+
+.. image:: img/keyboard1.png
+
+In the **Window** option, check **Dock to screen edge**.
+
+.. image:: img/keyboard2.png
+
+And in **Auto-show** option, check **Auto-show when editing text** again.
+
+.. image:: img/keyboard3.png
+
+
+The next 2 items are optional, the ones checked in the picture are recommended by us, you can also check other ones.
+
+In **Layout** option, **Small** is recommanded.
+
+.. image:: img/keyboard4.png
+
+In **Theme** option, **DarkRoom** is recommanded.
+
+.. image:: img/keyboard5.png
+
+
+Right Click on RasPad
+-------------------------
+Touchscreen tablets and displays make it easy for you to perform simple navigation tasks with your fingers or stylus, but at some point, you may want to use right-click commands to quickly access context-specific shortcuts.
+
+Here we use ``evdev-rce`` to make RasPad's right-click command still available.
+
+Enter the following command to install the required software.
+
+  .. code-block:: shell
+
+    sudo apt install build-essential libevdev2 libevdev-dev
+    git clone 'https://github.com/PeterCxy/evdev-right-click-emulation.git'
+    cd 'evdev-right-click-emulation'
+
+Enter the following command to build.
+
+  .. code-block:: shell
+
+    make all
+
+Copy the file to the ``/usr`` directory.
+
+  .. code-block:: shell
+
+    sudo cp 'out/evdev-rce' '/usr/local/bin/'
+
+Make it executable.
+
+  .. code-block:: shell
+
+    sudo chmod +x '/usr/local/bin/evdev-rce'
+
+Modify the /etc/rc.local file to enable boot-up.
+
+  .. code-block:: shell
+
+    sudo nano /etc/rc.local
+
+After entering rc.local, add the following command before ``exit 0``.
+
+.. code-block:: shell
+
+  sudo /usr/local/bin/evdev-rce
+
+.. image:: img/reboot.png
+  :align: center
+
+After restarting, you can long press on the RasPad desktop and see if the right click function appears.
+
+.. code-block:: shell
+
+  sudo reboot
+
+.. image:: img/right_click.png
+  :align: center
+
+Connect Headphones or Other Screens
+-----------------------------------------
+
 Plug in the headphone if you need.
 
 .. image:: img/assembling34.png
@@ -152,7 +262,6 @@ and plug a mouse and a keyboard.
   :align: center
 
 Now, you can control your computer on RasPad.
-
 
 .. image:: img/assembling39.png
   :width: 600
