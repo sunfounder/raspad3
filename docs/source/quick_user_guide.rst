@@ -167,6 +167,14 @@ In **Theme** option, **DarkRoom** is recommanded.
 
 .. image:: img/keyboard5.png
 
+After the setting is complete, restart RasPad. Every time you restart RasPad, you need to click **General Access** -> **Onboard** to enable the virtual keyboard.
+
+.. image:: img/enable_onboard.png
+
+Now you can use this keyboard to edit your files or codes.
+
+.. image:: img/keyboard6.png
+
 
 Right Click on RasPad
 -------------------------
@@ -210,10 +218,7 @@ After entering rc.local, add the following command before ``exit 0``.
 
 .. code-block:: shell
 
-  sudo /usr/local/bin/evdev-rce
-
-.. image:: img/reboot.png
-  :align: center
+  sudo /usr/local/bin/evdev-rce &
 
 After restarting, you can long press on the RasPad desktop and see if the right click function appears.
 
