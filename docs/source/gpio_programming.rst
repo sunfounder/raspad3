@@ -26,14 +26,13 @@ https://docs.sunfounder.com/projects/electronic-kit/en/latest/index.html
 
 
 **Purchase Links**
+Global: https://www.sunfounder.com/products/electronics-fun-kit
 
-https://www.sunfounder.com/products/electronics-fun-kit?_pos=1&_sid=535224409&_ss=r
+United States: https://www.amazon.com/dp/product/B07QT78FXF
 
-https://www.amazon.com/dp/product/B07QT78FXF
+Germany: https://www.amazon.de/dp/B07QT78FXF
 
-https://www.amazon.de/dp/B07QT78FXF
-
-https://www.amazon.ca/dp/product/B07RQ7Z6G4		
+Canada: https://www.amazon.ca/dp/product/B07RQ7Z6G4		
 
 
 
@@ -47,15 +46,15 @@ https://docs.sunfounder.com/projects/davinci-kit-for-raspberry-pi/en/latest/
 
 **Purchase Links**
 
-https://www.sunfounder.com/products/sunfounder-davinci-kit?_pos=1&_sid=06e6784b3&_ss=r
+Global: https://www.sunfounder.com/products/sunfounder-davinci-kit
 
-https://www.amazon.com/dp/product/B07WV2HYC6
+United States: https://www.amazon.com/dp/product/B07WV2HYC6
 
-https://www.amazon.co.jp/dp/product/B083SJQXCL
+Japan: https://www.amazon.co.jp/dp/product/B083SJQXCL
 
-https://www.amazon.de/dp/B07WYX8M76
+Canada: https://www.amazon.de/dp/B07WYX8M76
 
-https://www.amazon.ca/dp/product/B07KH2C215				
+Germany: https://www.amazon.ca/dp/product/B07KH2C215				
 
 
 
