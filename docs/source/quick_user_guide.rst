@@ -176,7 +176,7 @@ Now you can use this keyboard to edit your files or codes.
 .. image:: img/keyboard6.png
 
 
-Right Click on RasPad
+Right Click on RasPad 3
 -------------------------
 Touchscreen tablets and displays make it easy for you to perform simple navigation tasks with your fingers or stylus, but at some point, you may want to use right-click commands to quickly access context-specific shortcuts.
 
@@ -228,6 +228,26 @@ After restarting, you can long press on the RasPad desktop and see if the right 
 
 .. image:: img/right_click.png
   :align: center
+
+
+Calibrate the Rotating Screen Function
+-------------------------------------------
+
+When you rotate the RasPad 3, the reason why the Raspberry Pi desktop does not follow the rotation is that the built-in Accel SHIM module is not calibrated.
+
+The calibration steps are as follows：
+
+Open the a Terminal and enter the command ``sudo auto-rotator calibrate`` to run the calibration script.
+
+Now start to rotate the RasPad 3 according to the picture below. Rotate 360° from left to right, and finally return to the front.
+
+.. image:: img/rotate1.png
+
+Then rotate 360° from top to bottom, and finally return to the front.
+
+.. image:: img/rotate2.png
+
+After the calibration is complete, press ``Ctrl + C`` to exit the calibration script and restart RasPad 3 through the ``sudo reboot`` command.
 
 Connect Headphones or Other Screens
 -----------------------------------------

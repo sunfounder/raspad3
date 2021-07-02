@@ -19,7 +19,7 @@ Compatible with Raspbian, Ubuntu Desktop, Chromium OS, Android and more...  Besi
     quick_user_guide
     what_the_raspad_can_do
     appendix
-    
+    faq
 
 Copyright Notice
 =================
