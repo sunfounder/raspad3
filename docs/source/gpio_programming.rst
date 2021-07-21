@@ -4,17 +4,18 @@ GPIO Programming
 RasPad 3 can connect the 40 I/O pins of the Raspberry Pi to the breadboard, so you can use these pins to do some interesting projects. 
 
 .. note::
-  Before you start to experience the following courses, you need to refer to :ref:`GPIO Extension Board` to extend the 40 pins of the Raspberry Pi in RasPad to the breadboard.
+
+  Refer to :ref:`GPIO Extension Board` instructions for extending the 40 pins of the Raspberry Pi inside the RasPad to the external breadboard.
 
 SunFounder has a very complete course system about Raspberry Pi GPIO learning kits, such as the following two learning kits.
 
 * :ref:`Electronic Kit for Raspberry Pi and Arduino`
 
-A basic learning kit is suitable for Raspberry Pi and Arduino, in this kit you can learn basic circuit and programming knowledge.
+This basic learning kit is suitable for the Raspberry Pi and Arduino novice. This kit teaches basic circuit design and introduces Python programming for beginners.
 
 * :ref:`Da Vinci Kit for Raspberry Pi`
 
-This is an advanced Raspberry Pi learning kit that contains almost all types of components. You can learn the principles and perfect codes of all components.
+This is an advanced Raspberry Pi teaching kit that contains a robust array of components. This kit teaches physical computing and Python programming principles for beginners and advanced users.
 
 Electronic Kit for Raspberry Pi and Arduino
 --------------------------------------------
@@ -25,7 +26,7 @@ Electronic Kit for Raspberry Pi and Arduino
 https://docs.sunfounder.com/projects/electronic-kit/en/latest/index.html
 
 
-**Purchase Links**
+**Product Link**
 Global: https://www.sunfounder.com/products/electronics-fun-kit
 
 United States: https://www.amazon.com/dp/product/B07QT78FXF
@@ -44,7 +45,7 @@ Da Vinci Kit for Raspberry Pi
 https://docs.sunfounder.com/projects/davinci-kit-for-raspberry-pi/en/latest/
 
 
-**Purchase Links**
+**Product Link**
 
 Global: https://www.sunfounder.com/products/sunfounder-davinci-kit
 

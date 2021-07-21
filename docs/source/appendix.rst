@@ -1,25 +1,23 @@
-Appendix
+APPENDIX
 ===========
 
-Here, we have included some operations that must be used when doing projects. If you are a new user of RasPad 3, you may need to read this part carefully.
+For new RasPad users, the following sections are essential operations that will need to be used for doing certain projects. Please read these sections carefully.
 
 Assemble the Camera Module
 --------------------------------------
 
-Open the back cover of the RasPad, connect the FFC cable to the CSI interface of the Camera Module, and pass the RasPad back cover to the CSI interface of the Raspberry Pi.
+Open the back cover of the RasPad. Connect the FFC cable to the CSI interface of the Camera Module. Carefully pass the CSI interface cable through the slot on the back cover of the RasPad. Connect the CSI interface of the Raspberry Pi. Then carefully close the back cover of the RasPad.
 
-After that, close up the back cover.
 
 .. warning::
   
-  The card slot is set on the back cover and it’s in snap style. Therefore before opening or closing the back cover, you need to take out the microSD card to avoid damaging your microSD card and the internal button board.
-
+  The SD card slot is a snap-in style attached to the back cover. Before removing or replacing the back cover, remove the micro-SD card to avoid damaging the micro-SD card and the RasPad's internal button board.
 
 .. image:: img/pir3.jpg
   :width: 600
   :align: center
 
-Insert the SD card already burned Raspberry Pi OS into the slot and nd long press the power button to boot the RasPad 3.
+Insert the micro-SD card with the Raspberry Pi OS image into the slot, and long-press the power button to boot the RasPad.
 
 .. image:: img/pir5.jpg
   :width: 500
@@ -31,7 +29,7 @@ Open **Raspberry Pi Configuration**.
   :width: 550
   :align: center
 
-Then in the Interfaces option above, **Enable** the Camera, and finally click **OK**.
+In the **Interfaces** option, **Enable** the Camera, and then click **OK**.
 
 .. image:: img/raspbian2.png
   :width: 500
@@ -46,7 +44,7 @@ In the pop-up prompt box, choose to restart now.
 
 After the restart is complete, use the following command line to check whether the camera is available.
 
-If the camera screen appears, it means that the camera is installed successfully, otherwise the FFC cable needs to be plugged in and unplugged again.
+If the camera screen appears it means that the camera is installed successfully. Otherwise the FFC cable needs to be unplugged and plugged in again.
 
 .. code-block:: python
 
@@ -59,9 +57,9 @@ GPIO Extension Board
 
 Before starting the project, you first need to know more about the pins of the Raspberry Pi, which is key to the build circuit.
 
-The pins of Raspberry Pi have three kinds of ways to name and they are wiringPi, BCM and Board. Among these naming methods, 40-pin GPIO Extension board uses the naming method, BCM.
+The pins of Raspberry Pi have three ways to name them. They are wiringPi, BCM and Board. Among these naming conventions, the 40-pin GPIO Extension board uses the naming convention BCM.
 
-The following table shows us the naming methods of WiringPi, Board and the intrinsic Name of each pin on GPIO Extension board.
+The following table shows the naming convention for WiringPi, Board and the intrinsic Name of each pin on GPIO Extension board.
 
 For example, for the GPIO17, the Board naming method of it is 11, the wiringPi naming method is 0, and the intrinsic naming method of it is GPIO0. 
 
@@ -69,20 +67,20 @@ For example, for the GPIO17, the Board naming method of it is 11, the wiringPi n
   :width: 700
   :align: center
 
-Open the back cover of the RasPad, connect the 40 pin ribbon cable and GPIO extension board, and insert the 40 pin ribbon cable into the Raspberry Pi. After that, cover the back of the RasPad and flip to the front of the RasPad. 
+Open the back cover of the RasPad and insert the 40 pin ribbon cable into the Raspberry Pi. Pass the ribbon cable through the available slot on the base of the RasPad, and connect the other end of the 40 pin ribbon cable to the GPIO extension board. Then replace the back cover of the RasPad.
 
 .. warning::
   
-  The card slot is set on the back cover and it’s in snap style. Therefore before opening or closing the back cover, you need to take out the microSD card to avoid damaging your microSD card and the internal button board.
+  The SD card slot is a snap-in style attached to the back cover. Before removing or replacing the back cover, remove the micro-SD card to avoid damaging the micro-SD card and the RasPad's internal button board.
 
 .. image:: img/paino2.jpg
   :width: 600
   :align: center
 
-Get the IP Address
-------------------------
+Obtain the IP Address of the Raspberry Pi
+--------------------------------------------------
 
-If You Have a Screen
+With a Screen
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 If you have a screen, it will be easy for you to get the IP address of Raspberry Pi.
@@ -99,39 +97,42 @@ If you have a screen, it will be easy for you to get the IP address of Raspberry
 | 1 * Mouse         | 1 * Keyboard             | 
 +-------------------+--------------------------+
 
-1. Insert the SD card you’ve set up with Raspberry Pi OS into the micro SD card slot on the underside of your Raspberry Pi.
+1. Insert the micro-SD card with the Raspberry Pi OS image into the micro SD card slot on the underside of the Raspberry Pi.
 2. Plug in the Mouse and Keyboard.
-3. Connect the screen to Raspberry Pi’s HDMI port and make sure your screen is plugged into a wall socket and switched on.
+3. Connect the screen to the Raspberry Pi’s HDMI port. Make sure the screen is plugged into a wall socket and turned on.
+
   .. note::
-      If you use a Raspberry Pi 4, you need to connect the screen to the HDMI0  (nearest the power in port).
+
+    For the Raspberry Pi 4 models, connect the screen to the HDMI0 port, nearest to the power-in socket.
+
 4. Use the power adapter to power the Raspberry Pi. After a few seconds, the Raspberry Pi OS desktop will be displayed.
-5. Place the mouse on the wifi icon, and the IP of the Raspberry Pi will be displayed after a period of time.
+5. Hover the cursor over the WiFi icon, and the IP address of the Raspberry Pi will be displayed.
 
 .. image:: img/appendix1.png
   :width: 700
   :align: center
 
-If You Have No Screen
+Without a Screen
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 After the Raspberry Pi is connected to WIFI, we need to get the IP address of it. There are many ways to know the IP address, and two of them are listed as follows.
 
 **1. Checking via the router**
-   
-If you have permission to log in the router(such as a home network), you can check the addresses assigned to Raspberry Pi on the admin interface of router. 
 
-The default hostname of the Raspberry Pi OS is raspberrypi, and you need to find it. (If you are using ArchLinuxARM system, please find alarmpi.)
+Check the addresses assigned to Raspberry Pi on the administration interface of the router.
+
+The default hostname of the Raspberry Pi OS is raspberrypi. If you are using an ArchLinuxARM system, please find alarmpi.
 
 **2. Network Segment Scanning**
    
-You can also use network scanning to look up the IP address of Raspberry Pi. You can apply the software, **Advanced IP scanner** and so on.
+Network scanning applications can be used to look up the IP address of Raspberry Pi, such as Advanced IP Scanner.
 
-Scan the IP range set, and the name of all connected devices will be displayed. Similarly, the default hostname of the Raspberry Pi OS is raspberrypi, if you haven't modified it.
+Scan the IP range set, and the names of all connected devices will be displayed. The default hostname of the Raspberry Pi OS is raspberrypi.
 
 Use the SSH Remote Control
 ------------------------------
 
-We can open the Bash Shell of Raspberry Pi by applying SSH. Bash is the standard default shell of Linux. The Shell itself is a program written in C that is the bridge linking the customers and Unix/Linux. Moreover, it can help to complete most of the work needed. 
+Bash is the standard default shell of Linux, and can be opened on the Raspberry Pi by using SSH. The Shell itself is a program written in C programming language that acts as a bridge linking the customers and Unix/Linux systems.
 
 **For Linux or/Mac OS X Users**
 
@@ -141,19 +142,25 @@ Go to **Applications** -> **Utilities**, find the **Terminal**, and open it.
   :width: 600
   :align: center
 
-Type in **ssh pi@ip_address** . “pi”is your username and “ip_address” is your IP address. For example:
+
+Type in ``ssh pi@ip_address`` where ``pi`` is the username and ``ip_address`` is the IP address of the Raspberry Pi. For example:
 
 .. code-block:: python
 
     ssh pi@192.168.18.197 
 
-Input”yes”.
+At the prompt, type ``yes`` in lowercase.
 
 .. image:: img/appendix4.png
   :width: 600
   :align: center
 
-Input the passcode and the default password is **raspberry**.
+The default password is raspberry.
+
+.. note::
+  
+  The characters do not display when typing in the password. Make sure to input the correct password.
+
 
 .. image:: img/appendix5.png
   :width: 600
@@ -165,22 +172,29 @@ We now get the Raspberry Pi connected and are ready to go to the next step.
   :width: 600
   :align: center
 
-.. note::
-    When you input the password, the characters do not display on window accordingly, which is normal. What you need is to input the correct password.
 
 **For Windows Users**
 
-If you're a Windows user, you can use SSH with the application of some software. Here, we recommend PuTTY.
+Windows users can use SSH with the PuTTY application.
 
-Download PuTTY, open it and click Session on the left tree-alike structure. Enter the IP address of the RPi in the text box under Host Name (or IP address) and 22 under Port (by default it is 22).
+Download PuTTY, open the application, and click Session on the left of the tree-like structure. Enter the IP address of the Raspberry Pi in the text box under Host Name, and enter 22 under Port.
 
 .. image:: img/appendix7.png
   :width: 600
   :align: center
 
-Click **Open**. Note that when you first log in to the Raspberry Pi with the IP address, there prompts a security reminder. Just click **Yes**. 
+Click Open.
 
-When the PuTTY window prompts “**login as:**”, type in “**pi**”(the user name of the RPi), and **password**: “raspberry” (the default one, if you haven't changed it). 
+.. note::
+  
+  When first logging in to the Raspberry Pi with the IP address, there will be a security prompt. Click Yes to continue.
+
+When the PuTTY window prompts **login as:**, type in ``pi`` for the user name of the Raspberry Pi. The default password is ``raspberry``.
+
+.. note:: 
+
+  The characters do not display when typing in the password. Make sure to input the correct password.
+
 
 .. image:: img/appendix8.png
   :width: 600
@@ -188,8 +202,6 @@ When the PuTTY window prompts “**login as:**”, type in “**pi**”(the user
 
 Here, we get the Raspberry Pi connected and it is time to conduct the next steps.
 
-.. note::
-  When you input the password, the characters do not display on window accordingly, which is normal. What you need is to input the correct password.
 
 
 

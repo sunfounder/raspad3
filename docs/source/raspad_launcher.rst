@@ -1,10 +1,10 @@
-RasPad Launcher
+RASPAD LAUNCHER
 ==================
 
 
 Introduction
 ------------------
-RasPad Launcher is an open source software, simulating a launcher menu, focus on improving touch experience with RasPad, or other touchscreen.
+RasPad Launcher is an open source software that simulates a launcher menu, with a focus on improving the users touchscreen experience with the RasPad or other touchscreens.
 
 .. image:: img/raspad-launcher.jpg
 
@@ -13,14 +13,12 @@ RasPad Launcher is an open source software, simulating a launcher menu, focus on
 
 Why we abandon RasPad OS and launch RasPad Launcher
 --------------------------------------------------------
-RasPad OS intergrated with RasPad Launcher, RasPad FAQ with our custom UI and boot animations, which is redundant. And people loves the idea of RasPad Launcher, so we decided to remove all unnecessary components, and keep RasPad Launcher as a single app. So people can install it your own Raspberry Pi OS.
+RasPad OS intergrated with RasPad Launcher, RasPad FAQ with our custom UI and boot animations, which is redundant. And people loves the idea of RasPad Launcher, so we decided to remove all unnecessary components, and keep RasPad Launcher as a single application. So people can install it your own Raspberry Pi OS.
 
 Installation Guide
 --------------------
 
-**Download Package**
-
-Download RasPad Launcher package, and extract it.
+Download the RasPad Launcher package, and extract it.
 
 .. code-block::
 
@@ -28,15 +26,15 @@ Download RasPad Launcher package, and extract it.
     unzip raspad-launcher.zip
     cd raspad-launcher
 
-**Quick install with a script**
 
-If you don't really know what's going on, and don't care about messing up your own settings, like a brand new Debian. Or you are lazy enough to manual install everything, you can use the quick install script. The script will install these things:
+The script will install the following:
 
-* Qt runtime
-* RasPad launcher with desktop profile
-* RasPad FAQ desktop profile (Just a quick icon to browser RasPad FAQ webpage)
-* display auto rotate for Accl SHIM
-* Run install script
+* Qt runtime.
+* RasPad launcher with desktop profile.
+* RasPad FAQ desktop profile (Just a quick icon to browser RasPad FAQ webpage).
+* display auto rotate for Accl SHIM.
+
+Run install script.
 
 .. code-block::
 
@@ -44,4 +42,5 @@ If you don't really know what's going on, and don't care about messing up your o
     sudo ./install
 
 .. note::
-    If you want to manually install RasPad Launcher and learn more about it, please refer to `RasPad Launcher <https://github.com/raspad-tablet/raspad-launcher/blob/main/docs/installation-guide.md>`_.
+
+    To manually install RasPad Launcher and specific components, please refer to `RasPad Launcher <https://github.com/raspad-tablet/raspad-launcher/blob/main/docs/installation-guide.md>`_.

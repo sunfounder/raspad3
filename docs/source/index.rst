@@ -1,23 +1,23 @@
 SunFounder Raspberry Pi Tablet - RasPad 3
 =================================================
 
-An ideal programming Raspberry Pi tablet perfectly compatible with Raspberry Pi 4B. RasPad 3 with internal 10.1 inch IPS Pi touchscreen LCD monitor, high resolution of 1280×800 pixels, 10-finger touch, 5 hours long battery life. 
+The ideal programming environment for the Raspberry Pi 4B, the RasPad 3 tablet has a 10.1 inch IPS touchscreen with a 1280×800 resolution, allowing for 10-finger touch control. The RasPad comes with two speakers, a built-in cooling fan, and 5 hours of battery life under normal conditions. 
 
-Easily assemble with 2 steps to get started anytime anywhere. Triangular structure design and six-axis acceleration sensor, which can be placed flat or upright on the table, or rotate it 90°/180°/270° to give amazing presentations. Including two speakers and a fan, cooling down your Raspberry Pi and making your project have more possibilities!
+The RasPad’s triangular structure and six-axis acceleration sensor allows for the tablet to be placed flat, upright, or rotated 90°/180°/270° for giving presentations. Easily assembled in only a few simple steps allows for anyone to quickly get started programming anytime, anywhere.
 
-With all the Raspberry Pi ports, including Ethernet, HDMI, Audio, USB, and Power. By leveraging the HDMI, you can easily extend RasPad with other monitors for better multitasking or mirror your display. Reserve the Raspberry Pi 40Pin I/O port and CSI interface expansion method. Using the 40pin cable to expand the I/O port to the breadboard can build projects or install cameras for RasPad. 
+With all the standard Raspberry Pi 4 ports available, including Ethernet, HDMI, Audio, USB, and Power, the RasPad can also be configured to include the Raspberry Pi 40-Pin I/O port breadboarding and prototyping projects. The included CSI interface cable can be used to add a camera, and with one HDMI port reserved for the RasPad tablet interface, the second HDMI port can be utilized for mirroring or extending the display to a second monitor. 
 
-Compatible with Raspbian, Ubuntu Desktop, Chromium OS, Android and more...  Besides to be a 3D printer monitor, game console and tablet, the RasPad can also be used to build IoT projects for home smart, learn Scratch programming, create some interesting projects with the I/O interfaces and camera.
+The RasPad is compatible with Raspbian, Ubuntu Desktop, Chromium OS, Android, and more, allowing for a customized operating system environment. The RasPad can be utilized as a 3D printer controller, a game console, a programming tablet, or a platform for building IoT projects for smart-home applications.
 
 .. toctree::
     :maxdepth: 3
     
     components_list
     assembling
-    install_os_to_your_micro_sd_card
+    install_the_os
     raspad_launcher.rst
     quick_user_guide
-    what_the_raspad_can_do
+    raspad_projects_and_activities
     appendix
     faq
 

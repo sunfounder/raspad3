@@ -1,10 +1,11 @@
-Quick User Guide
+QUICK USER GUIDE
 ===================
 * :ref:`Interfaces Introduction`
 * :ref:`Power on the RasPad`
 * :ref:`Volume and Brightness Settings`
 * :ref:`Install Virtual Keyboard on RasPad`
 * :ref:`Right Click on RasPad`
+* :ref:`Calibrate the Rotating Screen Function`
 * :ref:`Connect Headphones or Other Screens`
 
 
@@ -22,12 +23,11 @@ Interfaces Introduction
 Power on the RasPad
 ------------------------
 
-Now, insert the SD card firmly.
+Insert the micro-SD card into the SD port of the RasPad, then press the power button.
 
 .. warning::
   
-  The card slot is set on the back cover and it’s in snap style. Therefore before opening or closing the back cover, you need to take out the microSD card to avoid damaging your microSD card and the internal button board.
-
+  The SD card slot is a snap-in style attached to the back cover. Before removing or replacing the back cover, remove the micro-SD card to avoid damaging the micro-SD card and the RasPad's internal button board.
 
 .. image:: img/assembling18.png
   :width: 600
@@ -39,7 +39,7 @@ Take out the power adapter and power cable.
   :width: 550
   :align: center
 
-Insert one side of the power cable into the power adapter, and the other side to a socket. In case of any accident, children should be accompanied by parents.
+Insert one side of the power cable into the power adapter, and the other side to an outlet (an adult will be needed if the user is a minor).
 
 .. image:: img/assembling20.png
   :width: 550
@@ -51,13 +51,14 @@ Plug the power adapter into the RasPad power port.
   :width: 600
   :align: center
 
-At this time, one of the green LED might be blinking and the charging icon will appear, saying RasPad is charging.
+At this time, one of the green LED might be blinking and the charging icon will appear, indicating that the RasPad is charging.
+
 
 .. image:: img/assembling22.png
   :width: 600
   :align: center
 
-The number of lit green LEDs indicates the percentage of battery. When only one indicator LED is lit (33%), a low voltage warning icon will appear, indicating that RasPad needs to be charged.
+The number of green LEDs indicates battery percentage. When only one green LED is visible (indicating the battery is at or below 33%), a low-power warning icon will appear, indicating that RasPad needs to be charged.
 
 .. image:: img/assembling23.png
   :width: 600
@@ -65,15 +66,14 @@ The number of lit green LEDs indicates the percentage of battery. When only one 
 
 The power button is on the right side.
 
-Press and hold for over 3 seconds to power on/off the RasPad and short press to turn 
-on/off the screen.
+Press and hold for over three seconds to power the RasPad on or off. A short press will turn the screen on or off.
+
 
 .. image:: img/assembling24.png
   :width: 600
   :align: center
 
-Now press and hold the power button for over 3 seconds and you'll see the 
-RasPad is booting up.
+After pressing and holding the power button for over three seconds, the RasPad display will show the RasPad booting up.                                                                                                                                                                           
 
 .. image:: img/assembling25.png
   :width: 600
@@ -82,13 +82,15 @@ RasPad is booting up.
 Volume and Brightness Settings
 --------------------------------------
 
-Now, the red LED is lit up, that is to say the RasPad is on.
+Next to the power button, the red LED should now be lit, indicating that the RasPad is powered on.
 
 .. image:: img/assembling27.png
   :width: 600
   :align: center
 
-At this point, the RasPad should be in the boot-up state. If the screen is too bright, short press the brightness button to enter the brightness adjustment page.
+At this point, the RasPad should be booted up.
+
+If the screen is too bright, give the brightness button a short press to enter the screen-brightness adjustment page.
 
 .. image:: img/assembling28.png
   :width: 600
@@ -113,14 +115,13 @@ otherwise it will be harmful to the eyes.
   :width: 550
   :align: center
 
-If you adjust the volume, press the volume button once to enter the volume 
-adjustment page.
+To adjust the volume, press the volume button once to enter the volume adjustment page.
 
 .. image:: img/assembling32.png
   :width: 600
   :align: center
 
-Then press these two buttons to adjust volume.
+Then press these two buttons to adjust the volume.
 
 .. image:: img/assembling33.png
   :width: 600
@@ -176,7 +177,7 @@ Now you can use this keyboard to edit your files or codes.
 .. image:: img/keyboard6.png
 
 
-Right Click on RasPad 3
+Right Click on RasPad
 -------------------------
 Touchscreen tablets and displays make it easy for you to perform simple navigation tasks with your fingers or stylus, but at some point, you may want to use right-click commands to quickly access context-specific shortcuts.
 
@@ -258,35 +259,31 @@ Plug in the headphone if you need.
   :width: 600
   :align: center
 
-The headphone volume can only be adjusted on the screen, so you need to 
-enter the RPi desktop firstly through tapping the top left menu icon.
+The headphone volume can only be adjusted on the desktop screen. Enter the Raspberry Pi desktop by tapping the top left menu icon of the RasPad Launcher.
 
 .. image:: img/assembling35.png
   :width: 550
   :align: center
 
-Just tap the speaker icon, and the volume control box will appear. Slide the 
-volume cursor to volume up or down.
+Tap the speaker icon and the volume control box will appear. Slide the volume cursor up or down tto adjust the headphone's volume.
 
 .. image:: img/assembling36.png
   :width: 550
   :align: center
 
-When wearing headphones, pay attention not to adjust the volume too much 
-high, in case of “hard of hearing”.
+.. warning:: 
+
+  When wearing headphones, do not adjust the volume too high.
 
 .. image:: img/assembling37.png
   :width: 600
   :align: center
 
-If you want to set up your dual monitors, you can add a monitor via HDMI cable 
-and plug a mouse and a keyboard.
+Use the HDMI port to add a second monitor, and the USB ports for a mouse and a keyboard.
 
 .. image:: img/assembling38.png
   :width: 600
   :align: center
-
-Now, you can control your computer on RasPad.
 
 .. image:: img/assembling39.png
   :width: 600

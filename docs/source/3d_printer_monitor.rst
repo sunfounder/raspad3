@@ -3,63 +3,64 @@
 
 When using a 3D printer, we will need to use OctoPrint. It is an open source 3D printer controller application, which provides a web interface for the connected printers. It displays printers' status and key parameters and allows user to schedule prints and remotely control the printer.
 
-Please refer to the detailed installation tutorial of OctoPrint: https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian-or-raspberry-pi-os/2337.
+Please refer to the detailed installation tutorial for OctoPrint: https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian-or-raspberry-pi-os/2337.
 
 This tutorial has written very detailed installation steps, which may take a long time and requires more patience.
 
 .. note::
 
-    * Before starting the tutorial, you will need to install Raspberry Pi OS on your MicroSD card, please refer to :ref:`Install OS to Your Micro SD Card`.
-    * In step-**Optional: Webcam**, you will need to install a camera on RasPad 3. For the camera installation tutorial, please refer to :ref:`Assemble the Camera Module`.
-    * In step-**Optional: Touch UI** may be wrong, please refer the following content to configure the **Touch UI** function.
+    * The Raspberry Pi Operating System will need to be installed on the micro-SD card before starting the tutorial. Please refer to :ref:`INSTALL THE OS`.
+    * **Webcam Option**: A camera will need to be installed on the RasPad for webcam use. Please refer to the tutorial: :ref:`Assemble the Camera Module`.
+    * **Touch UI Option**: A new Raspberry Pi image might not have an auto start function for Touch UI. Please refer to the tutorial: :ref:`Touch UI` to configure the settings for the Touch UI function.
 
 Touch UI
 -----------
 
-When using the **Touch UI** function, if you cannot find the ``autostart`` file in the ``~/.config/lxsession/LXDE-pi`` path, you may need to add the file manually (new image generally encounter this situation).
+If the ``autostart`` file is not located in the ``~/.config/lxsession/LXDE-pi`` path, the file will need to be added manually.
 
-First create the ``lxsession`` folder and the ``LXDE-pi`` folder.
+Create the ``lxsession`` folder and the ``LXDE-pi`` folder in the ``~/config`` directory.
 
-.. code-block:: python
+.. code-block:: shell
 
     mkdir ~/.config/lxsession
     mkdir ~/.config/lxsession/LXDE-pi
 
-Copy the ``autostart`` from the path ``/etc/xdg/lxsession/LXDE-pi``.
 
-.. code-block:: python
+Copy the ``autostart`` file from the path ``/etc/xdg/lxsession/LXDE-pi`` to the ``~/.config/lxsession/LXDE-pi`` folder.
+
+.. code-block:: shell
 
     cp /etc/xdg/lxsession/LXDE-pi/autostart ~/.config/lxsession/LXDE-pi/autostart
 
-Set the permissions of the ``autostart`` file to be readable and writable, and then open it.
+Set the permissions of the ``autostart`` file to be readable and writable.
 
-.. code-block:: python   
+.. code-block:: shell   
 
     chmod 644 ~/.config/lxsession/LXDE-pi/autostart
     nano .config/lxsession/LXDE-pi/autostart
 
-Add the following line at the end of the ``autostart`` file to make RasPad3 execute the ``startTouchUI.sh`` script file every time before booting.
+Open the autostart file with a text editor such as ``Nano``, and add the following line to the end of the file to make the RasPad execute the ``startTouchUI.sh`` script file on boot.
 
-.. code-block:: python
+.. code-block:: shell
 
     @/home/pi/startTouchUI.sh
 
-After restarting RasPad3, you will see the full screen of OctoPrint's Touch UI. You can also press ``F11`` to exit the full screen.
+After restarting the RasPad, the OctoPrint’s Touch UI will open in full screen mode. Press ``F11`` to exit the full screen mode and enter the desktop.
 
 Make a 3D Model
 ------------------
 
-Click this link: `https://projects.raspberrypi.org/en/projects?hardware%5B%5D=3d-printer <https://projects.raspberrypi.org/en/projects?hardware%5B%5D=3d-printer>`_, refer to the official Raspberry Pi tutorial, you can get the 3D model file in the format of .stl.
+Click this link: https://projects.raspberrypi.org/en/projects?hardware%5B%5D=3d-printer, refer to the official Raspberry Pi tutorial, you can get the 3D model file in the format of .stl.
 
-Generally, 3D printers cannot directly process .stl files. You need to use Ultimaker Cura software to slice them, and then upload them to the 3D printer through OctoPrint to print the 3D model file.
+Generally, 3D printers cannot directly process .stl files. You need to use **Ultimaker Cura** software to slice them, and then upload them to the 3D printer through **OctoPrint** to print the 3D model file.
 
-Download Ultimaker Cura from https://ultimaker.com/software/ultimaker-cura，choose **Download for free**.
+Download `Ultimaker Cura <https://ultimaker.com/software/ultimaker-cura>`_ from . Since Ultimaker Cura is not available on the Raspberry Pi system, you need to perform the slicing operation on your computer.
 
 .. image:: img/oct2.png
   :width: 600
   :align: center
 
-Select the version you need. Since Ultimaker Cura is not available on the Raspberry Pi system, you need to perform the slicing operation on your computer.
+Select the version you need. 
 
 .. image:: img/oct3.png
   :align: center
@@ -72,29 +73,27 @@ If you want to slice other types of model files, check the corresponding option,
   :width: 600
   :align: center
 
-When opening Ultimaker Cura for the first time, you need to understand and configure it.
-
-Special attention is that in the **Add a printer** step, you need to select the correct printer model and click Next.
+When opening Ultimaker Cura for the first time, there will be a series of configuration prompts. At the **Add a Printer** step, select the model of printer used and click **Next**.
 
 .. image:: img/oct5.png
   :width: 600
   :align: center
 
-After selecting the printer model, check whether the parameters provided by Ultimaker Cura are correct.
+After selecting the correct printer model, verify that the parameters provided by Ultimaker Cura in the Machine Settings page are correct, or change the parameters directly.
 
-If there is an error, modify it directly. Finally, follow the instructions to complete the configuration of Ultimaker Cura.
+Follow the onscreen prompts to complete the configuration of Ultimaker Cura.
 
 .. image:: img/oct6.png
   :width: 600
   :align: center
 
-Click the open icon in the upper left corner, and then add the .stl 3D model file that needs to be sliced.
+Once Ultimaker Cura has successfully launched, click the **Folder** icon in the upper left-hand corner and browse to the folder with the .stl 3D model file that needs to be sliced, and click **Open** to add the .stl file to Ultimaker Cura's library.
 
 .. image:: img/oct7.png
   :width: 600
   :align: center
 
-After the addition is complete, click the **Slice** option in the lower right corner, and Ultimaker Cura will automatically perform the slicing operation.
+After the file has been added, click the **Slice** option in the lower right-hand corner, and Ultimaker Cura will automatically perform the slicing operation.
 
 .. image:: img/oct8.png
   :width: 400
@@ -106,7 +105,7 @@ After slicing is complete, click the **Save to Disk** option in the lower right 
   :width: 400
   :align: center
 
-Select the file type recognized by your printer, and then click **Save**.
+Select the type of file extension recognized by the 3D printer, then click **Save**.
 
 .. image:: img/oct10.png
   :width: 600
@@ -116,16 +115,17 @@ Select the file type recognized by your printer, and then click **Save**.
 Print 3D Model
 --------------------
 
-After slicing the .stl file, we can send the sliced ​​3D model file to your 3D printer through OctoPrint, and then it can be printed.
+After the .stl file has been sliced, the 3D model file can be sent to the 3D printer through OctoPrint to be printed.
 
-Enter ``http://192.168.18.179/?#temp>`` in your browser to log in to OctoPrint.
+Open the RasPad's browser, and enter ``http://192.168.18.179/?#temp`` to log in to OctoPrint.
+
 
 .. note::
 
-  Before logging into OctoPrint's web UI, you should have successfully installed OctoPrint on RasPad 3.
+  Before logging in to the OctoPrint’s web UI, OctoPrint will first need to have been successfully installed on the RasPad.
 
-  Replace the IP address 192.168.18.179 to yours. Place the mouse on the wifi icon, and the IP of the Raspberry Pi will be displayed after a period of time.
-
+  The IP address 192.168.18.179 will need to be replaced with the local IP address of the RasPad. Hover the cursor over the WiFi icon on the RasPad desktop, and the local IP address will be displayed.
+  
   .. image:: img/appendix1.png
     :width: 700
     :align: center
@@ -142,7 +142,7 @@ Click the **Upload** option to select the sliced ​​3D model file.
   :width: 600
   :align: center
 
-Click the **print** icon. The 3D printer starts to print the 3D model file after the slicing process.
+Click the **print** icon. The 3D printer will start to print the 3D model file after the slicing process is complete.
 
 .. image:: img/oct13.png
   :width: 500
@@ -160,7 +160,7 @@ Video
 
 The following video shows that after installing OctoPrint, connect your 3D printer and RasPad 3 through a USB cable，upload the designed 3D file, and then use the camera to monitor the printing process. 
 
-You can also monitor the temperature to prevent the temperature from getting too low or too high, which will affect the model.
+The temperature can also be monitored to prevent the 3D printer from getting too hot or cold, which will affect the printed 3D model.
 
 .. raw:: html
 

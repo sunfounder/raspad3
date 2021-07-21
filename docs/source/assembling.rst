@@ -1,10 +1,10 @@
-Assembling
-===============
+ASSEMBLY INSTRUCTIONS
+==========================
 
-1. Before inserting the Micro SD card board into the RPi, you need to connect it to the button board using the FFC cable.
-2. Then plug in all cables and secure the RPi with M2.5x4 screws.
-3. Fix the fan with M2.5x9 screws and the side with the logo facing the fan hole.
-4. Finally close the back cover and screw in the M2.5x4 screws.
+1. Before inserting the Micro SD card, connect the button-board to the Raspberry Pi using the included FFC cable.
+2. Connect all the cables, and then attach the Raspberry Pi with four of the M2.5x4 screws.
+3. Orient the fan so the logo is facing the exterior vent, then attach the fan with the four M2.5x9 screws.
+4. Finally, attach the back cover with five M2.5x4 screws.
 
 .. image:: img/assemble_ful.jpg
 
@@ -12,13 +12,18 @@ Assembling
 **Detailed Assembly Steps**
 
 
-Take out the RasPad, then flip it over and remove the back cover.
+Take out the RasPad, then flip it over to remove the back cover.
 
 .. image:: img/assembling1.png
   :width: 600
   :align: center
 
-Here is the internal structure of the RasPad. Avoid pressing these two speakers in case of any damage.
+Below is an image of the internal structure of the RasPad. 
+
+.. note:: 
+
+  Avoid pressing on the two speakers during assembly.
+
 
 .. image:: img/assembling2.png
   :width: 800
@@ -30,37 +35,42 @@ Connect the Ethernet port of the Raspberry Pi and the Main Board.
   :width: 600
   :align: center
 
-Connect the RPi USB3.0 port and the Main Board via the USB cable.
+Connect the Raspberry Pi's USB 3.0 port to the RasPad Main Board with the included USB cable.
 
 .. image:: img/assembling4.png
   :width: 600
   :align: center
 
-Plug in 2 Micro HDMI cables.
+Connect the two Micro-HDMI cables.
+
+.. note:: 
+
+  Cable A is slightly longer than Cable B.
+  
 
 .. image:: img/assembling5.png
   :width: 600
   :align: center
 
-Plug in the Type-C cable.
+Connect the USB-C cable.
 
 .. image:: img/assembling6.png
   :width: 600
   :align: center
 
-Plug the FFC cable in Micro SD card board.
+Plug the FFC cable into the Micro SD card board.
 
 .. image:: img/assembling7.png
   :width: 600
   :align: center
 
-Insert the Micro SD card board into the card slot of the RPi.
+Insert the Micro SD card board into the Raspberry Pi's Micro SD card slot.
 
 .. image:: img/assembling8.png
   :width: 600
   :align: center
 
-Insert the other side of FFC cable into the button board.
+Insert the other end of the FFC cable into the RasPad button board.
 
 .. image:: img/assembling9.png
   :width: 600
@@ -72,40 +82,39 @@ Fix the Raspberry Pi with 4 M2.5x4 screws.
   :width: 600
   :align: center
 
-Stick heat sinks on the right positions and accordingly insert the Accel SHIM 
-module for the use of auto-rotate function.
+Attach the three heat-sinks to the Raspberry Pi, and insert the Accel SHIM module for the RasPad's auto-rotate function.
 
 .. image:: img/assembling11.png
   :width: 600
   :align: center
 
-If you want to use the I/O pins of the RPi, you can connect a common 40 pin ribbon cable.
+To use the GPIO pins of the Raspberry Pi, connect a 40-pin GPIO ribbon cable to the Raspberry Pi, and route the ribbon cable out the top of the case.
 
 .. image:: img/assembling12.png
   :width: 600
   :align: center
 
-Install the fan on the back cover and screw it in with 4 M2.5x9 screws.
+Attach the fan onto the back cover with four M2.5x9 screws.
 
 .. note::
 
-    The logo side is against the bottom.
+  The logo faces out towards the exterior vent.
 
 .. image:: img/assembling13.png
   :width: 600
   :align: center
 
-Connect the fan to the main board.
+Connect the fan to the Main Board.
 
 .. image:: img/assembling14.png
   :width: 600
   :align: center
 
-Enclose these complete parts with a back cover then screw to get them tightened.
+Attach the back cover with five M2.5x4 screws.
 
 .. note::
 
-    If the enclosure is hard to cover, don’t cure this slight hiccup with violence. Please check these parts out to try to cover again.
+  Do not force the back cover in place. If the enclosure is hard to connect, or the screw-holes do not line up correctly, please check that there are no internal components interfering with the fit before trying to reattach the back cover.
 
 .. image:: img/assembling15.png
   :width: 600

@@ -1,4 +1,4 @@
-Components List
+COMPONENTS LIST
 ===================
 
 .. image:: img/list.jpg
