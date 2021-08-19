@@ -107,7 +107,6 @@ Attach the fan onto the back cover with four M2.5x9 screws.
 Connect the fan to the Main Board.
 
 .. image:: img/assembling14.png
-  :width: 600
   :align: center
 
 Attach the back cover with five M2.5x4 screws.

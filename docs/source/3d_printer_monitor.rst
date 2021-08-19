@@ -9,7 +9,7 @@ This tutorial has written very detailed installation steps, which may take a lon
 
 .. note::
 
-    * The Raspberry Pi Operating System will need to be installed on the micro-SD card before starting the tutorial. Please refer to :ref:`INSTALL THE OS`.
+    * The Raspberry Pi Operating System will need to be installed on the micro-SD card before starting the tutorial. Please refer to :ref:`INSTALL THE RASPBERRY PI OS`.
     * **Webcam Option**: A camera will need to be installed on the RasPad for webcam use. Please refer to the tutorial: :ref:`Assemble the Camera Module`.
     * **Touch UI Option**: A new Raspberry Pi image might not have an auto start function for Touch UI. Please refer to the tutorial: :ref:`Touch UI` to configure the settings for the Touch UI function.
 
@@ -54,7 +54,7 @@ Click this link: https://projects.raspberrypi.org/en/projects?hardware%5B%5D=3d-
 
 Generally, 3D printers cannot directly process .stl files. You need to use **Ultimaker Cura** software to slice them, and then upload them to the 3D printer through **OctoPrint** to print the 3D model file.
 
-Download `Ultimaker Cura <https://ultimaker.com/software/ultimaker-cura>`_ from . Since Ultimaker Cura is not available on the Raspberry Pi system, you need to perform the slicing operation on your computer.
+Download `Ultimaker Cura <https://ultimaker.com/software/ultimaker-cura>`_. Since Ultimaker Cura is not available on the Raspberry Pi system, you need to perform the slicing operation on your computer.
 
 .. image:: img/oct2.png
   :width: 600

@@ -1,4 +1,4 @@
-SunFounder Raspberry Pi Tablet - RasPad 3
+RasPad 3-A Portable Raspberry Pi Pad
 =================================================
 
 The ideal programming environment for the Raspberry Pi 4B, the RasPad 3 tablet has a 10.1 inch IPS touchscreen with a 1280×800 resolution, allowing for 10-finger touch control. The RasPad comes with two speakers, a built-in cooling fan, and 5 hours of battery life under normal conditions. 
@@ -14,9 +14,9 @@ The RasPad is compatible with Raspbian, Ubuntu Desktop, Chromium OS, Android, an
     
     components_list
     assembling
-    install_the_os
-    raspad_launcher.rst
     quick_user_guide
+    raspad_launcher
+    interfaces_introduction
     raspad_projects_and_activities
     appendix
     faq

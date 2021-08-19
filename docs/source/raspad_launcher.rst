@@ -11,10 +11,6 @@ RasPad Launcher is an open source software that simulates a launcher menu, with 
 .. note::
     If you want to use the original desktop of the Raspberry Pi, you can skip this chapter.
 
-Why we abandon RasPad OS and launch RasPad Launcher
---------------------------------------------------------
-RasPad OS intergrated with RasPad Launcher, RasPad FAQ with our custom UI and boot animations, which is redundant. And people loves the idea of RasPad Launcher, so we decided to remove all unnecessary components, and keep RasPad Launcher as a single application. So people can install it your own Raspberry Pi OS.
-
 Installation Guide
 --------------------
 

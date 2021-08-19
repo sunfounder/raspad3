@@ -1,4 +1,4 @@
-INSTALL THE OS
+Install the Raspberry Pi OS
 ======================================
 
 An operating system needs to be installed onto the Micro SD card before inserting it into the RasPad button-board.
@@ -41,7 +41,7 @@ Select the SD card you are using.
   :width: 550
   :align: center
 
-Press Ctrl+Shift+X to open the Advanced options page to enable SSH and configure wifi, these 2 items must be set, the others depend on your choice. You can choose to always use this image customization options.
+Press ``Ctrl+Shift+X`` to open the Advanced options page to enable SSH and configure wifi, these 2 items must be set, the others depend on your choice. You can choose to always use this image customization options.
 
 .. image:: img/3d5.png
   :width: 550
@@ -75,8 +75,12 @@ After the Imager completes installing the Operating System on the SD card, click
   :width: 550
   :align: center
   
-Insert the Micro SD card into the Micro SD port of the RasPad, then press the power button.
+Insert the Micro SD card into the Micro SD port of the RasPad, then press the power button for over three seconds, RasPad will turn on.
 
+The power button is on the right side. Press and hold for over three seconds to power the RasPad on or off. A short press will turn the screen on or off.
+
+.. note::
+  Before use, it is recommended to fully :ref:`Charge the RasPad`.
 
 .. image:: img/install_sd_card.jpg
   :width: 550
