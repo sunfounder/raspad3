@@ -10,8 +10,8 @@ Fix Raspberry Pi boot problems
 3. Take out the microSD card and use Raspberry Pi Imager to flash a new installation of Raspberry Pi OS to it (see :ref:`Install the Raspberry Pi OS`). 
 4. Try a different microSD card.
 
-Can't detect SC card?
-------------------------
+Can't detect Micro SD card?
+-----------------------------
 
 1. Whether the FFC on the Micro SD card board is connected correctly, refer to :ref:`ASSEMBLY INSTRUCTIONS`.
 2. Check whether the golden finger (transmission signal) on the SD card or the Micro SD card board turn black. If it is, it means that the gold finger has been oxidized and you need to erase the oxide layer with an eraser.
@@ -34,10 +34,9 @@ About sleep problem
 About the shutdown problem
 ----------------------------------
 
-* When you click shutdown button on the Raspberry Pi desktop or shutdown the Raspberry Pi at the command line, the Raspberry Pi will shut down, but the RasPad's power indicator and battert indicators are still on, you need to long press the RasPad's power button to shut down.
+* When you click shutdown button on the Raspberry Pi desktop or shutdown the Raspberry Pi at the command line, the Raspberry Pi will shut down, but the RasPad is not shut down, it will automatically go to sleep after a period of time because it does not detect the HDMI signal. You need to long press the RasPad's power button to shut down.
 
-* If you press and hold the RasPad power button directly to shutdown, it will shutdown both Raspberry Pi and RasPad at the same time.
-
+* If you directly press and hold the power button of RasPad, both Raspberry Pi and RasPad will be turned off at the same time. But it should be noted that this is to turn off the power of the Raspberry Pi directly, which may damage the Micro SD card. It is recommended to turn off the Raspberry Pi first, and then turn off RasPad.
 
 Desktop is not full screen
 ---------------------------------------

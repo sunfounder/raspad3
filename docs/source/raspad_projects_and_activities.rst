@@ -12,7 +12,7 @@ To get started using the RasPad, this chapter includes some interesting and chal
   iot/iot
   gpio_programming
   scratch_programming
-  brush_other_os
+  install_other_os
 
 
 
