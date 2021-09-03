@@ -22,7 +22,7 @@ Screen can not be rotated?
 
 The reason is that the built-in Accel SHIM module has not been calibrated.
 
-Please refer to: :ref:`Calibrate the Rotating Screen Function`.
+Please refer to: :ref:`Install Rotating Screen Service`.
 
 About sleep problem
 -----------------------------

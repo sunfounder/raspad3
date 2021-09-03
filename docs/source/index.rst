@@ -18,7 +18,7 @@ The RasPad is compatible with Raspbian, Ubuntu Desktop, Chromium OS, Android, an
     raspad_launcher
     interfaces_introduction
     raspad_projects_and_activities
-    appendix
+    appendix/appendix
     faq
 
 Copyright Notice
