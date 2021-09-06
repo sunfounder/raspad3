@@ -4,7 +4,7 @@ Quick Guide in Home Assistant
 Visit http://localhost:8123 to access your Home Assistant.
 
 
-.. image:: media/image67.png
+.. image:: media/image29.png
    :width: 800
 
 
@@ -12,6 +12,6 @@ Visit http://localhost:8123 to access your Home Assistant.
    :maxdepth: 1
 
    log_in
-   smart_device
+   consumer_device
    diy_device
    

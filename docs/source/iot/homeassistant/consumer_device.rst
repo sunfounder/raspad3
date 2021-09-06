@@ -1,4 +1,4 @@
-Smart Device
+Consumer Device 
 ================
 
 If you have smart devices now, you can directly add the corresponding integration 
@@ -8,5 +8,5 @@ to the Home Assistant with Homkit.
 .. toctree::
     :maxdepth: 1
 
-    smart_add_integration
-    smart_edit_dashboard
+    consumer_add_integration
+    consumer_edit_dashboard
