@@ -24,7 +24,7 @@ Install ESPhome
 
 **4. Open webpage**
 
-http://localhost:6052 or http://X.X.X.X:8123 (replace X.X.X.X with your machines’ IP address).
+http://localhost:6052 or http://X.X.X.X:6052 (replace X.X.X.X with your machines’ IP address).
 
 
 Tutorial
