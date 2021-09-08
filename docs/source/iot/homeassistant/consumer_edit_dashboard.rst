@@ -12,9 +12,13 @@ you can add the card to control the device, and then control the smart device by
 
 **2. ADD CARD**
 
+You can search cards by Card or by Entity.
+
 .. image:: media/image28.png
 
-You can search cards by CARD or by ENTITY.
+**By Card:** 
+
+Select the card style you want.
    
 .. image:: media/image18.png
 
@@ -25,6 +29,17 @@ Select the entity in the drop-down list.
 Click \"SAVE\" to save the settings.
 
 .. image:: media/image31.png
+
+**By Entity:** 
+
+Select the entity you want to add.
+
+.. image:: media/01.png
+   :align: center
+
+
+.. image:: media/02.png
+   :align: center
 
 
 For more styles, you can refer to `Official Demo <https://demo.home-assistant.io/#/lovelace/0>`_. Now to set up your smart device.

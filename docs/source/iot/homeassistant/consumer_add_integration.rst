@@ -35,7 +35,9 @@ to Homekit by scanning the connection through Apple Home App.
    :align: center
 
 **3. HomeKit Pairing**
+
+To set up HASS Bridge:21064 in the Home App, 
+scan the QR code or enter the following code:
    
 .. image:: media/image25.png
-   :width: 700
    :align: center
