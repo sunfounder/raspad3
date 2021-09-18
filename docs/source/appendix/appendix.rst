@@ -13,9 +13,7 @@ For new RasPad users, the following sections are essential operations that will 
     obtain_the_ip_of the_raspi
     use_ssh_remote_control
 
-    set_boot_up_automatically
-    set_full-screen_boo_up
-    file_structure
+
 
 
 

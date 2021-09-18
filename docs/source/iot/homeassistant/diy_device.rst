@@ -1,5 +1,5 @@
-DIY Device
-===================
+Add Your DIY Devices On HA
+===============================
 
 If you want to use homeassistant to operate a diy device, 
 you need to configure the device first. The following takes ESP32-light as 

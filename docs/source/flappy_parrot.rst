@@ -4,7 +4,7 @@ Flappy Parrot
 Description
 -------------
 
-Hello, kids! Today we made the parrot Devin avoid the trees for food.
+Today we made the parrot Devin avoid the trees for food.
 
 Click on the green flag to start.
 

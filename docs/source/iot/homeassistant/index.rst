@@ -1,6 +1,9 @@
 Home Assistant
 ====================================
 
+.. image:: media/image29.png
+    :align: center
+
 Home Assistant is a Python-based open source smart home system that supports smart home devices 
 of many brands and can easily implement voice control and automation of the devices. 
 You can run Home-assistant on the Raspberry Pi, without having to send your data out onto 
@@ -13,4 +16,9 @@ Let the Raspberry Pi become the smart central control in the home.
     :maxdepth: 2
 
     install_required_libraries
-    quick_guide_in_home_assistant
+    log_in
+    consumer_device
+    diy_device
+    set_boot_up_automatically
+    set_full-screen_boo_up
+    file_structure

@@ -4,7 +4,7 @@ Clicker Game
 Description
 -------------
 
-Hello, kids! Today we will play a game of poking balloons.
+Today we will play a game of poking balloons.
 
 Click the green flag to start.
 

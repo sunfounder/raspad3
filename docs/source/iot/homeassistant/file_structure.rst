@@ -10,7 +10,7 @@ Homeassistant creates a configuration file by default under the path of the exec
 
 The file directory structure is as follows:
 
-.. image:: img/image3.png
+.. image:: media/image3.png
 
 ``.storage`` directory contains a lot of user-related information, 
 including user login information (username/password, encrypted in auth_provider.homeassistant file).

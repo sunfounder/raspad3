@@ -65,5 +65,5 @@ Method 3: Right-click the pop-up menu, select \"Exit full screen\".
 Long press the blank space to pop up the menu, 
 click the exit button at the top of the screen or select \"Exit full screen\".
 
-.. image:: img/image27.png
+.. image:: media/image27.png
     :align: center

@@ -9,7 +9,8 @@ To get started using the RasPad, this chapter includes some interesting and chal
   multimedia_options
   retro_games_console
   3d_printer_monitor
-  iot/iot
+  iot/homeassistant/index
+  iot/cloud4RPi
   gpio_programming
   scratch_programming
   install_other_os
