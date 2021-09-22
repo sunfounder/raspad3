@@ -1,5 +1,5 @@
-Set Boot Up Automatically
-=================================
+Start the Home Assistant Service at Boot
+==================================================
 
 Normally, Docker is self-starting after booting by default, which also means that after you install Home Assistant, you can use it as long as you start the Raspberry Pi.
 

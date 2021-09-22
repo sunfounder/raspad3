@@ -1,5 +1,5 @@
-Set Full-Screen Boot Up
-=============================
+Enter the Home Assisant Page at Boot
+================================================
 
 Experience the full-screen self-boot interface first. 
 Please close the already open Home Assistant URL and run 
