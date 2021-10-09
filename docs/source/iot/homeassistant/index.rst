@@ -20,6 +20,8 @@ Here are some projects made by others that combine Raspberry Pi and Home Assista
 * `DIY Home Automation Intruder Alarm System! || Home Assistant + Raspberry Pi + ESP8266 - GreatScott! <https://www.youtube.com/watch?v=IvI1RqYPO24>`_
 
 
+**Quick Guide**
+
 .. toctree::
     :maxdepth: 2
 
