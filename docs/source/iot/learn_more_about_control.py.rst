@@ -9,6 +9,10 @@ In order to better understand the projects that follow, let's take a look at the
 
 Open the ``control.py`` file.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block:: shell
 
     cd cloud4rpi-raspberrypi-python

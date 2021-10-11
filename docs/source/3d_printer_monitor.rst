@@ -20,6 +20,10 @@ If the ``autostart`` file is not located in the ``~/.config/lxsession/LXDE-pi`` 
 
 Create the ``lxsession`` folder and the ``LXDE-pi`` folder in the ``~/config`` directory.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block:: shell
 
     mkdir ~/.config/lxsession
@@ -28,11 +32,19 @@ Create the ``lxsession`` folder and the ``LXDE-pi`` folder in the ``~/config`` d
 
 Copy the ``autostart`` file from the path ``/etc/xdg/lxsession/LXDE-pi`` to the ``~/.config/lxsession/LXDE-pi`` folder.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block:: shell
 
     cp /etc/xdg/lxsession/LXDE-pi/autostart ~/.config/lxsession/LXDE-pi/autostart
 
 Set the permissions of the ``autostart`` file to be readable and writable.
+
+.. raw:: html
+
+    <run></run>
 
 .. code-block:: shell   
 
@@ -40,6 +52,10 @@ Set the permissions of the ``autostart`` file to be readable and writable.
     nano .config/lxsession/LXDE-pi/autostart
 
 Open the autostart file with a text editor such as ``Nano``, and add the following line to the end of the file to make the RasPad execute the ``startTouchUI.sh`` script file on boot.
+
+.. raw:: html
+
+    <run></run>
 
 .. code-block:: shell
 

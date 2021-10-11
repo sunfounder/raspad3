@@ -7,11 +7,19 @@ Before starting the project, you should have downloaded the code we provided.
 
 Open a Terminal and enter the following command to download them from github.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block::
 
     git clone https://github.com/sunfounder/raspad3.git
 
 Then copy the codes from the ``iot`` folder to the ``cloud4rpi-raspberrypi-python`` folder.
+
+.. raw:: html
+
+    <run></run>
 
 .. code-block:: shell
 

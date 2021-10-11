@@ -16,9 +16,13 @@ Installation Guide
 
 Download the RasPad Launcher package, and extract it.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block::
 
-    wget https://github.com/raspad-tablet/raspad-launcher/releases/download/v1.4/raspad-launcher.zip
+    wget https://github.com/raspad-tablet/raspad-launcher/releases/latest/download/raspad-launcher.zip
     unzip raspad-launcher.zip
     cd raspad-launcher
 
@@ -32,7 +36,15 @@ The script will install the following:
 
 Run install script.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block::
+
+    chmod +x install
+    sudo ./install
+
 
     chmod +x install
     sudo ./install

@@ -9,7 +9,11 @@ If you want to automatically display the Home Assistant interface in full screen
 booting, then do the following.
 
 
-**1. Go to the autostart folder**
+1. Go to the ``autostart`` folder.
+
+.. raw:: html
+
+    <run></run>
 
 .. code-block::
 
@@ -17,20 +21,29 @@ booting, then do the following.
 
 .. note::
 
-    If the autostart folder does not exist, you need to create a new one.
-        
+    If the ``autostart`` folder does not exist, you need to create a new one.
+    
+    .. raw:: html
+
+        <run></run>
+
     .. code-block::
 
         sudo mkdir -p /home/pi/.config/autostart/
 
         
-**2. Create chrome_start_fullscreen.desktop file**
+2. Create ``chrome_start_fullscreen.desktop`` file.
+
+.. raw:: html
+
+    <run></run>
+
 
 .. code-block::
 
     sudo nano chrome_start_fullscreen.desktop
 
-**3. Edit the chrome_start_fullscreen.desktop file**
+3. Edit the ``chrome_start_fullscreen.desktop`` file as follows.
 
 .. code-block::
 
@@ -38,11 +51,15 @@ booting, then do the following.
     Type = Application
     Exec = chromium-browser --start-fullscreen "http://localhost:8123"
 
-Save and exit: Ctrl+ X, Y, Enter.
+Save and exit: ``Ctrl + X``, ``Y``, ``Enter``.
 
 .. note::
    
-    If you want to cancel the full-screen self-start, comment out the contents of the .desktop file (by **\"#\"** )and restart the RaspberryPi.
+    If you want to cancel the full-screen self-start, comment out the contents of the ``.desktop`` file (by **\"#\"** )and restart the Raspberry Pi.
+
+    .. raw:: html
+
+        <run></run>
 
     .. code-block::
 
@@ -50,7 +67,7 @@ Save and exit: Ctrl+ X, Y, Enter.
         sudo nano chrome_start_fullscreen.desktop
 
 
-**4. Exit full screen**
+4. Exit full screen.
 
 **computer:**
 

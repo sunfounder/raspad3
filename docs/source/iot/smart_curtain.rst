@@ -18,6 +18,10 @@ Build the circuit.
 
 Open the code.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block:: shell
 
     cd /home/pi/cloud4rpi-raspberrypi-python
@@ -30,6 +34,10 @@ Find the line below and fill in the correct device token.
     DEVICE_TOKEN = '__YOUR_DEVICE_TOKEN__'
 
 Run the code.
+
+.. raw:: html
+
+    <run></run>
 
 .. code-block:: shell
 

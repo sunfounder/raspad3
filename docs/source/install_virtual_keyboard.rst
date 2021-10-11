@@ -5,9 +5,13 @@ When you use a touch panel such as RasPad, you can connect an external keyboard 
 
 Install the required software with the following command.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block:: shell
 
-  sudo apt install onboard
+  sudo apt install onboard -y
   sudo apt install at-spi2-core
 
 In order to make the virtual keyboard have a better effect, you need to do further settings.

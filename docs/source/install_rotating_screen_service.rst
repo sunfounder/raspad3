@@ -5,9 +5,7 @@ The Accel SHIM module was inserted into the Raspberry Pi when the RasPad was ass
 
 This script currently supports the following systems.
 
-**Compatiable**
-
-Currently supports:
+**Currently supports**
 
 - Raspberry Pi OS
 - Twister OS
@@ -15,6 +13,9 @@ Currently supports:
 
 **Run the following commands to install it.**
 
+.. raw:: html
+
+    <run></run>
 
 .. code-block::
 
@@ -33,9 +34,13 @@ After the first installation, some angles may not trigger the auto-rotation func
 
 If it still doesn't work at some angles no matter how you rotate and calibrate it, in that case, try to recalibrate it with the command.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block::
 
-    raspad-auto-rotate reset
+    raspad-auto-rotator reset
 
 
 After running the above command, the auto-rotator will restart. Now recalibrate according to the 2 methods mentioned before.

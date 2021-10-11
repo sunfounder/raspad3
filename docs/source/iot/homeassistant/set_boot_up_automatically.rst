@@ -5,20 +5,32 @@ Normally, Docker is self-starting after booting by default, which also means tha
 
 You can use the following command to view the boot list. The ``docker.service`` should be in the ``enabled`` state.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block::
 
-    systemctl list-unit-files | grep enable
+    sudo systemctl list-unit-files | grep enable
 
 
 To turn off Docker's self-startup, please enter the following command:
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block::
 
-    systemctl disable docker.service
+    sudo systemctl disable docker.service
 
 
 To enable Docker's self-startup, please enter the following command:
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block::
 
-    systemctl enable docker.service
+    sudo systemctl enable docker.service

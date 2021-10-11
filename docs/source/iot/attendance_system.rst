@@ -15,6 +15,10 @@ Build the circuit.
 
 Open the code.
 
+.. raw:: html
+
+    <run></run>
+
 .. code-block:: shell
 
     cd /home/pi/cloud4rpi-raspberrypi-python
@@ -22,11 +26,17 @@ Open the code.
 
 Find the line below and fill in the correct device token.
 
+
+
 .. code-block:: python
 
     DEVICE_TOKEN = '__YOUR_DEVICE_TOKEN__'
 
 Run the code.
+
+.. raw:: html
+
+    <run></run>
 
 .. code-block:: shell
 
@@ -45,6 +55,11 @@ Also you can find the ``.csv`` file with the date under the path ``/home/pi/clou
 	:align: center
 
 Open it with the following command.
+
+.. raw:: html
+
+    <run></run>
+
 
 .. code-block:: shell
 

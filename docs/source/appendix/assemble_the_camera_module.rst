@@ -42,7 +42,11 @@ After the restart is complete, use the following command line to check whether t
 
 If the camera screen appears it means that the camera is installed successfully. Otherwise the FFC cable needs to be unplugged and plugged in again.
 
-.. code-block:: python
+.. raw:: html
+
+    <run></run>
+
+.. code-block:: shell
 
     raspivid -o vid.h264
 

@@ -23,8 +23,7 @@ If you download a system with only a desktop, you can click **Preferences** -> *
 
         git clone https://github.com/sunfounder/raspad3.git
 
-Projects
-----------------------
+**Projects**
 
 .. toctree::
     :maxdepth: 1

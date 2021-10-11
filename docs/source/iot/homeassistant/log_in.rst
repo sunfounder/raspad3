@@ -6,7 +6,7 @@ Log In
 .. image:: media/image56.png
     :align: center
 
-2. Create a name for your Home and select your region.
+2. Create a name for your home and select your region.
 
 
 .. image:: media/image68.png
