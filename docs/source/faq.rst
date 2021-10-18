@@ -90,4 +90,9 @@ RasPad's battery capacity is 3x3.7Vx3Ah = 33Wh, which is a bit larger than iPad 
 
 We will continue to optimize this use of time.
 
+Touch function sometimes fails?
+------------------------------------
+
+When opening some software of Raspberry Pi, you will find some places where touch does not work, this is caused by Raspberry Pi OS not doing adaptation for touch screen. We can't solve it and need to wait for the Raspberry Pi OS to optimize the solution.
+
 

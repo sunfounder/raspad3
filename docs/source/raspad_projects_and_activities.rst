@@ -12,6 +12,10 @@ To get started using the RasPad, this chapter includes some interesting and chal
   iot/homeassistant/home_assistant
   iot/cloud4RPi
   gpio_programming
+
+.. toctree::
+  :maxdepth: 2
+
   scratch_programming
   install_other_os
 

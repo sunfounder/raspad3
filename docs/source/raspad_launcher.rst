@@ -29,7 +29,6 @@ Download the RasPad Launcher package, and extract it.
 
 The script will install the following:
 
-* Qt runtime.
 * RasPad launcher with desktop profile.
 * RasPad FAQ desktop profile (Just a quick icon to browser RasPad FAQ webpage).
 * display auto rotate for Accl SHIM.
@@ -41,10 +40,6 @@ Run install script.
     <run></run>
 
 .. code-block::
-
-    chmod +x install
-    sudo ./install
-
 
     chmod +x install
     sudo ./install
