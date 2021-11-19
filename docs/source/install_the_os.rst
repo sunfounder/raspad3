@@ -24,17 +24,30 @@ If the Windows operating system prevents the application from launching, click o
 
 Insert the Micro SD card into the computer or laptop's SD card slot. If the computer or laptop only has a full-size port for SD cards, use a Micro SD card adapter.
 
-In the Raspberry Pi Imager, select the Operating System to install, and then select the SD card to install the image on.
+.. In the Raspberry Pi Imager, select the Operating System to install, and then select the SD card to install the image on.
 
-.. image:: img/3d3.png
-  :width: 550
-  :align: center
+.. .. image:: img/3d3.png
+..   :width: 550
+..   :align: center
 
-.. note::
-    * The computer or laptop will need to be connected to the internet during the first time the Operating System is installed.
+.. .. note::
+..     * The computer or laptop will need to be connected to the internet during the first time the Operating System is installed.
 
-    * After the first installation, a copy of the Operating System installed from the Imager will be stored on the computer or laptop, and will be available for future use, even while offline (Location of lastdownload.cache will be here: ``C:/Users/<username>/AppData/Local/Raspberry Pi/Imager/cache``). The next time the Imager software launches, it will display “Released: <date>, Cached on your computer”.
+..     * After the first installation, a copy of the Operating System installed from the Imager will be stored on the computer or laptop, and will be available for future use, even while offline (Location of lastdownload.cache will be here: ``C:/Users/<username>/AppData/Local/Raspberry Pi/Imager/cache``). The next time the Imager software launches, it will display “Released: <date>, Cached on your computer”.
     
+
+
+Download the `raspios_armhf-2020-05-28 <https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip>`_ image and select it in Raspberry Pi Imager.
+
+.. image:: img/otherOS.png
+    :align: center
+
+.. warning::
+    Raspberry Pi OS has major changes after the 2021-05-28 version, which may cause some functions to be unavailable. Please do not use the latest version for now.
+
+.. mark
+
+
 Select the SD card you are using.
 
 .. image:: img/3d4.png
