@@ -1,13 +1,19 @@
 RasPad 3-A Portable Raspberry Pi Pad
 =================================================
 
-The ideal programming environment for the Raspberry Pi 4B, the RasPad 3 tablet has a 10.1 inch IPS touchscreen with a 1280×800 resolution, allowing for 10-finger touch control. The RasPad comes with two speakers, a built-in cooling fan, and 5 hours of battery life under normal conditions. 
 
-The RasPad’s triangular structure and six-axis acceleration sensor allows for the tablet to be placed flat, upright, or rotated 90°/180°/270° for giving presentations. Easily assembled in only a few simple steps allows for anyone to quickly get started programming anytime, anywhere.
+.. iamge:: img/raspad.png
+    :width: 600
+    :align: center
+    
+An ideal programming Raspberry Pi tablet perfectly compatible with Raspberry Pi 4B. RasPad with internal 10.1 inch IPS Pi touchscreen LCD monitor, high resolution of 1280×800 pixels, 10-finger touch, 5 hours long battery life. Easily assembled with 2 steps to get started anytime anywhere.
 
-With all the standard Raspberry Pi 4 ports available, including Ethernet, HDMI, Audio, USB, and Power, the RasPad can also be configured to include the Raspberry Pi 40-Pin I/O port breadboarding and prototyping projects. The included CSI interface cable can be used to add a camera, and with one HDMI port reserved for the RasPad tablet interface, the second HDMI port can be utilized for mirroring or extending the display to a second monitor. 
+By leveraging the HDMI, you can easily extend RasPad with other monitors for better multitasking or mirror your display. In addition, due to triangular structure design and six-axis acceleration sensor, it can be placed flat or upright on the table, or rotate it 90°/180°/270° to give amazing presentations!
 
-The RasPad is compatible with Raspbian, Ubuntu Desktop, Chromium OS, Android, and more, allowing for a customized operating system environment. The RasPad can be utilized as a 3D printer controller, a game console, a programming tablet, or a platform for building IoT projects for smart-home applications.
+With all the Raspberry Pi ports, including Ethernet, HDMI, Audio, USB, and Power. All the RPi I/O interface, a customized OS, stereo speakers and many more features for developers to have a convenient hardware-hacking experience, specially designed GPIO Extension and camera holes making users build projects or install cameras for RasPad. You can start programming from anywhere and fun daily work.
+
+Compatible with Arduino, Raspbian, Ubuntu Desktop, Chromium OS, Android and more... Realize A Tablet to Program & A Remote Controller & A Spare Display. Besides programming, RasPad can be as a good Remote Stream Display to make 3D print/ play games/ build IoT projects/ learn Scratch 3.0.
+
 
 .. toctree::
     :maxdepth: 3

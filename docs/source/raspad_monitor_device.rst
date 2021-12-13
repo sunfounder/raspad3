@@ -73,7 +73,7 @@ Tap Add icon at lower left corner and choose“Video Sensing”and“Raspberry P
   :width: 700
   :align: center
 
-Back to the main page, drag a“when gpio 0 is high”from Raspberry Pi GPIO function and a “play sound (hello) until done”to the coding area.
+Back to the main page, drag a “when gpio 0 is high” from Raspberry Pi GPIO function and a “play sound (hello) until done”to the coding area.
 
 .. image:: img/pir11.png
   :width: 500
