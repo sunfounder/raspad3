@@ -92,7 +92,10 @@ We will continue to optimize this use of time.
 
 Touch function sometimes fails?
 ------------------------------------
-
 When opening some software of Raspberry Pi, you will find some places where touch does not work, this is caused by Raspberry Pi OS not doing adaptation for touch screen. We can't solve it and need to wait for the Raspberry Pi OS to optimize the solution.
 
 
+The WiFi connection is unstable?
+----------------------------------------
+
+Because we found that USB 3.0 high-speed transmission will interfere with the Raspberry Pi's 2.4G wifi signal. So if you find the 2.4G signal is unstable, please try to use WIFI 5G AP. 
