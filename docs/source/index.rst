@@ -1,20 +1,31 @@
-.. raspad3 documentation master file, created by
-   sphinx-quickstart on Fri Dec 10 11:54:49 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+RasPad 3-A 一个便携式树莓派平板
+=================================================
 
-Welcome to raspad3's documentation!
-===================================
+.. image:: img/raspad.png
+    :width: 600
+
+一款完美兼容树莓派4B的理想编程树莓派平板电脑。RasPad内置10.1英寸IPS Pi触摸屏液晶显示器，分辨率高达1280×800像素，10指触摸，5小时长电池寿命。只需2个步骤就可以轻松组装，随时随地开始使用。
+
+通过利用HDMI，你可以轻松地将RasPad与其他显示器进行扩展，以便更好地进行多任务处理，或者对你的显示器进行镜像。此外，由于三角形的结构设计和六轴加速度传感器，它可以平放或直立在桌子上，也可以旋转90°/180°/270°，进行惊人的演示!
+
+拥有所有的树莓派端口，包括以太网、HDMI、音频、USB和电源。所有的RPi I/O接口，定制的操作系统，立体声扬声器和更多的功能，让开发者有一个方便的硬件黑客体验，特别设计的GPIO扩展和摄像头孔使用户为RasPad建立项目或安装摄像头。你可以从任何地方开始编程，享受日常工作的乐趣。
+
+兼容Arduino、Raspbian、Ubuntu桌面、Chromium OS、Android和更多... 实现了平板电脑编程&远程控制器&备用显示器。除了编程，RasPad还可以作为一个很好的远程流媒体显示器来制作3D打印/玩游戏/建立物联网项目/学习Scratch 3.0。
+
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 3
+    
+    components_list
+    assembling
+    quick_user_guide
+    raspad_launcher
+    interfaces_introduction
+    raspad_projects_and_activities
+    appendix/appendix
+    faq
 
+版权声明
+=================
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+本手册中包括但不限于文字、图片、代码等所有内容均归SunFounder公司所有。 您只应将其用于个人学习、娱乐或其他非商业或非营利目的，根据相关法规和版权法，在不侵犯作者及相关权利人合法权益的前提下。 对于任何个人或未经许可将其用于商业利益的组织，本公司保留采取法律行动的权利。
