@@ -1,4 +1,4 @@
-Safety Notices
+SAFETY NOTICES
 ==============
 
 Precautions about the use of the product
