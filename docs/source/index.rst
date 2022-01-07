@@ -18,6 +18,7 @@ Compatible with Arduino, Raspbian, Ubuntu Desktop, Chromium OS, Android and more
 .. toctree::
     :maxdepth: 3
     
+    safety_notices
     components_list
     assembling
     quick_user_guide
