@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: 2022-01-11 15:54+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: os\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../install_the_os.rst:2
+msgid "Install the Raspberry Pi OS"
+msgstr "Raspberry PiOSをインストールします"
+
+#: ../install_the_os.rst:4
+msgid ""
+"An operating system needs to be installed onto the Micro SD card before "
+"inserting it into the RasPad button-board."
+msgstr ""
+"オペレーティングシステムは、RasPadボタンボードに挿入する前にMicroSDカード"
+"にインストールする必要があります。"
+
+#: ../install_the_os.rst:8
+msgid ""
+"Skip this chapter if the Raspberry Pi already has an operating system "
+"installed."
+msgstr ""
+"Raspberry Piにすでにオペレーティングシステムがインストールされている場合"
+"は、この章をスキップしてください。"
+
+#: ../install_the_os.rst:11
+msgid ""
+"Raspberry Pi Imager is a quick and easy way to install the Raspberry Pi "
+"operating system to a Micro SD card from a computer or laptop."
+msgstr ""
+"Raspberry Pi Imagerは、コンピューターまたはラップトップからMicroSDカードに"
+"RaspberryPiオペレーティングシステムをすばやく簡単にインストールする方法で"
+"す。"
+
+#: ../install_the_os.rst:13
+msgid ""
+"Browse to the Raspberry Pi Imager site and download the version that "
+"matches the computer or laptop\\'s  operating system (www.raspberrypi.org/"
+"software). When the download is complete, launch the installer program "
+"and follow the prompts to install the Raspberry Pi Imager."
+msgstr ""
+"Raspberry Pi Imagerサイトを参照し、コンピューターまたはラップトップのオペ"
+"レーティングシステム（www.raspberrypi.org/software）に一致するバージョンを"
+"ダウンロードします。 ダウンロードが完了したら、インストーラープログラムを"
+"起動し、プロンプトに従ってRaspberry PiImagerをインストールします。"
+
+#: ../install_the_os.rst:19
+msgid ""
+"If the Windows operating system prevents the application from launching, "
+"click on **More info** and then click on **Run anyway** to install the "
+"Raspberry Pi Imager."
+msgstr ""
+"Windowsオペレーティングシステムがアプリケーションの起動を妨げている場合"
+"は、**詳細**をクリックしてから**実行**をクリックしてRaspberry PiImagerをイ"
+"ンストールします。"
+
+#: ../install_the_os.rst:25
+msgid ""
+"Insert the Micro SD card into the computer or laptop's SD card slot. If "
+"the computer or laptop only has a full-size port for SD cards, use a "
+"Micro SD card adapter."
+msgstr ""
+"マイクロSDカードをコンピューターまたはラップトップのSDカードスロットに挿入"
+"します。 コンピューターまたはラップトップにSDカード用のフルサイズポートし"
+"かない場合は、MicroSDカードアダプターを使用してください。"
+
+#: ../install_the_os.rst:41
+msgid ""
+"Upgrading the Raspberry Pi OS to **Debian Bullseye** will cause some "
+"features to not work, so it is recommended to continue using the **Debian "
+"Buster** version."
+msgstr ""
+"Upgrading the Raspberry Pi OS to **Debian Bullseye** will cause some "
+"features to not work, so it is recommended to continue using the **Debian "
+"Buster** version."
+
+#: ../install_the_os.rst:43
+msgid ""
+"In the Raspberry Pi Imager, click **CHOOSE OS** -> **Raspberry Pi "
+"OS(other)**."
+msgstr ""
+"Raspberry Pi Imagerで、** CHOSE OS **-> ** Raspberry Pi OS（other）**をク"
+"リックします。"
+
+#: ../install_the_os.rst:48
+msgid ""
+"Scroll down to the end of the newly opened page and you will see "
+"**Raspberry Pi OS(Legacy)** and **Raspberry Pi OS Lite(Legacy)**, these "
+"are security updates for Debian Buster, the difference between them is "
+"with or without the desktop. It is recommended to install **Raspberry Pi "
+"OS(Legacy)**, the system with the desktop."
+msgstr ""
+"新しく開いたページの最後までスクロールすると、** Raspberry Pi OS（レガ"
+"シー）**と** Raspberry Pi OS Lite（レガシー）**が表示されます。これらは"
+"Debian Busterのセキュリティアップデートであり、違いは次のとおりです。 デス"
+"クトップの有無にかかわらず。 デスクトップを搭載したシステムである** "
+"Raspberry Pi OS（Legacy）**をインストールすることをお勧めします。"
+
+#: ../install_the_os.rst:55
+msgid "Select the SD card you are using."
+msgstr "使用しているSDカードを選択してください。"
+
+#: ../install_the_os.rst:61
+msgid ""
+"Press ``Ctrl+Shift+X`` to open the Advanced options page to enable SSH "
+"and configure wifi, these 2 items must be set, the others depend on your "
+"choice. You can choose to always use this image customization options."
+msgstr ""
+"`` Ctrl + Shift + X``を押して[詳細オプション]ページを開き、SSHを有効にして"
+"wifiを構成します。これら2つの項目を設定する必要があり、その他は選択によっ"
+"て異なります。 この画像のカスタマイズオプションを常に使用することを選択で"
+"きます。"
+
+#: ../install_the_os.rst:67
+msgid "Scroll down to configure the WiFi settings, and then click **SAVE**."
+msgstr "下にスクロールしてWiFi設定を構成し、[**保存**]をクリックします。"
+
+#: ../install_the_os.rst:71
+msgid ""
+"The entry for the **WiFi country** should be set to a designated two-"
+"letter ISO/IEC alpha2 code designated to the country. Please reference "
+"the following link: `https://en.wikipedia.org/wiki/"
+"ISO_3166-1_alpha-2#Officially_assigned_code_elements <https://en."
+"wikipedia.org/wiki/"
+"ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_."
+msgstr ""
+"** WiFi国**のエントリは、その国に指定された2文字のISO / IECalpha2コードに"
+"設定する必要があります。 次のリンクを参照してください： `https://en."
+"wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements "
+"<https://en.wikipedia.org/wiki/"
+"ISO_3166-1_alpha-2#Officially_assigned_code_elements>` _。"
+
+#: ../install_the_os.rst:77
+msgid "Click the **WRITE** button."
+msgstr "**書き込み**ボタンをクリックします。"
+
+#: ../install_the_os.rst:83
+msgid ""
+"The Imager will overwrite any files already on the SD card. If the SD "
+"card has any files, back up these files before clicking Yes."
+msgstr ""
+"イメージャは、SDカードにすでにあるファイルを上書きします。 SDカードにファ"
+"イルがある場合は、[はい]をクリックする前にこれらのファイルをバックアップし"
+"てください。"
+
+#: ../install_the_os.rst:89
+msgid ""
+"After the Imager completes installing the Operating System on the SD "
+"card, click Continue to complete the installation."
+msgstr ""
+"ImagerがSDカードへのオペレーティングシステムのインストールを完了したら、"
+"[続行]をクリックしてインストールを完了します。"
+
+#: ../install_the_os.rst:95
+msgid ""
+"Insert the Micro SD card into the Micro SD port of the RasPad, then press "
+"the power button for over three seconds, RasPad will turn on."
+msgstr ""
+"MicroSDカードをRasPadのMicroSDポートに挿入し、電源ボタンを3秒以上押すと、"
+"RasPadがオンになります。"
+
+#: ../install_the_os.rst:97
+msgid ""
+"The power button is on the right side. Press and hold for over three "
+"seconds to power the RasPad on or off. A short press will turn the screen "
+"on or off."
+msgstr ""
+"電源ボタンは右側にあります。 RasPadの電源をオンまたはオフにするには、3秒以"
+"上押し続けます。 短く押すと、画面がオンまたはオフになります。"
+
+#: ../install_the_os.rst:100
+msgid "Before use, it is recommended to fully :ref:`Charge the RasPad`."
+msgstr "使用する前に、完全に：ref： `RasPad`を充電することをお勧めします。"
+
+#: ../install_the_os.rst:108
+msgid ""
+"The SD card slot is a snap-in style attached to the back cover. Before "
+"removing or replacing the back cover, remove the Micro SD card to avoid "
+"damaging the Micro SD card and the RasPad's internal button board."
+msgstr ""
+"SDカードスロットは、背面カバーに取り付けられたスナップインスタイルです。 "
+"背面カバーを取り外したり交換したりする前に、Micro SDカードとRasPadの内部ボ"
+"タンボードを損傷しないように、MicroSDカードを取り外してください。"

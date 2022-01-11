@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../clicker_game.rst:2
+msgid "Clicker Game"
+msgstr ""
+
+#: ../clicker_game.rst:5
+msgid "Description"
+msgstr ""
+
+#: ../clicker_game.rst:7
+msgid "Today we will play a game of poking balloons."
+msgstr ""
+
+#: ../clicker_game.rst:9
+msgid "Click the green flag to start."
+msgstr ""
+
+#: ../clicker_game.rst:15
+msgid ""
+"Or click `Clicker Game "
+"<https://scratch.mit.edu/projects/526927491/editor/>`_, and then learn "
+"online tutorial on the Scratch official website."
+msgstr ""
+
+#: ../clicker_game.rst:18
+msgid "Required Components"
+msgstr ""
+
+#: ../clicker_game.rst:20
+msgid "A RasPad 3"
+msgstr ""
+
+#: ../clicker_game.rst:21
+msgid "Scratch 3 (either online or offline)"
+msgstr ""
+
+#: ../clicker_game.rst:24
+msgid "You Will Learn"
+msgstr ""
+
+#: ../clicker_game.rst:26
+msgid "Pick random number."
+msgstr ""
+
+#: ../clicker_game.rst:27
+msgid "Change the position, size and color of the sprite."
+msgstr ""
+
+#: ../clicker_game.rst:28
+msgid "Make a variable."
+msgstr ""
+
+#: ../clicker_game.rst:31
+msgid "Lesson Guide"
+msgstr ""
+
+#: ../clicker_game.rst:34
+msgid "Let the balloons appear randomly."
+msgstr ""
+
+#: ../clicker_game.rst:36
+msgid "First, add Balloon1 sprite and Colorful City backdrop."
+msgstr ""
+
+#: ../clicker_game.rst:41
+msgid "Set the balloon to a random position."
+msgstr ""
+
+#: ../clicker_game.rst:47
+msgid "Let it change the color and size randomly."
+msgstr ""
+
+#: ../clicker_game.rst:53
+msgid ""
+"Now, run the green flag and you can see the balloons randomly change in "
+"the stage area."
+msgstr ""
+
+#: ../clicker_game.rst:56
+msgid "Click on the balloon to add score."
+msgstr ""
+
+#: ../clicker_game.rst:58
+msgid ""
+"Now, we need to establish a scoring mechanism. Whenever the balloon is "
+"clicked, the score will increase by one."
+msgstr ""
+
+#: ../clicker_game.rst:60
+msgid ""
+"Create a variable (it can help us keep track of and store the score). In "
+"Variables, select 「**Make a Variable**」 and named **score**."
+msgstr ""
+
+#: ../clicker_game.rst:65
+msgid "We will see it in the upper left corner of the stage."
+msgstr ""
+
+#: ../clicker_game.rst:70
+msgid ""
+"When the balloon is clicked, the score is increased by one. When you "
+"click the green flag (the game starts), the score will be reset to zero."
+msgstr ""
+
+#: ../clicker_game.rst:76
+msgid ""
+"Now, click the green flag above the stage area to start the game, and "
+"click the balloon to increase your score!"
+msgstr ""
+
+#: ../clicker_game.rst:79
+msgid "Challenge"
+msgstr ""
+
+#: ../clicker_game.rst:81
+msgid ""
+"I believe that you will be smart enough to program and implement this "
+"game soon. Next, we will add some challenges to enrich our game content."
+msgstr ""
+
+#: ../clicker_game.rst:83
+msgid "When the balloon is clicked, the sound effect of \"POP\" is emitted."
+msgstr ""
+
+#: ../clicker_game.rst:84
+msgid ""
+"Let the Pufferfish sprite appear randomly on the stage as well, if you "
+"click on it, you will lose score!"
+msgstr ""
+

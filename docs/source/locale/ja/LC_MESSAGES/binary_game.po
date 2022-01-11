@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../binary_game.rst:2
+msgid "Binary Game"
+msgstr ""
+
+#: ../binary_game.rst:5
+msgid "Description"
+msgstr ""
+
+#: ../binary_game.rst:7
+msgid ""
+"Do you understand binary numbers? binary is a number system widely used "
+"in computing technology, so understanding binary numbers is an important "
+"step for understanding the computer world."
+msgstr ""
+
+#: ../binary_game.rst:9
+msgid ""
+"Click on the green flag to start. A random number will appear in the "
+"middle of the screen, and you need to know the corresponding binary "
+"number. For example, 5, the corresponding Binary number should be 0101, "
+"press the bear's paw on the right to confirm. If it is correct, the score"
+" will be increased by 1."
+msgstr ""
+
+#: ../binary_game.rst:15
+msgid ""
+"Or click `Binary Game "
+"<https://scratch.mit.edu/projects/526928990/editor/>`_, and then learn "
+"online tutorial on the Scratch official website."
+msgstr ""
+
+#: ../binary_game.rst:18
+msgid "Required Components"
+msgstr ""
+
+#: ../binary_game.rst:20
+msgid "A RasPad 3"
+msgstr ""
+
+#: ../binary_game.rst:21
+msgid "Scratch 3 (either online or offline)"
+msgstr ""
+
+#: ../binary_game.rst:24
+msgid "You Will Learn"
+msgstr ""
+
+#: ../binary_game.rst:26
+msgid "Understand binary numbers."
+msgstr ""
+
+#: ../binary_game.rst:27
+msgid "Convert binary numbers to decimal numbers."
+msgstr ""
+
+#: ../binary_game.rst:30
+msgid "Lesson Guide"
+msgstr ""
+
+#: ../binary_game.rst:33
+msgid "Arrange a small binary abacus at the bottom of the screen."
+msgstr ""
+
+#: ../binary_game.rst:35
+msgid ""
+"First, we delete the previous sprite. Upload the **Zero.png** file and "
+"**Enter.png** file in the sprite list, you have downloaded them from "
+"`raspad3.git <https://github.com/sunfounder/raspad3.git>`_ before."
+msgstr ""
+
+#: ../binary_game.rst:37
+msgid ""
+"Then we upload the **One.png** file in the **Costumes** option of the "
+"**Zero** sprite, so that the **Zero** sprite has **Zero** costume and "
+"**One** costume."
+msgstr ""
+
+#: ../binary_game.rst:43
+msgid ""
+"Then we copy the **Zero** sprite with the right mouse button, and there "
+"will be 3 new **Zero** sprites in the stage area."
+msgstr ""
+
+#: ../binary_game.rst:49
+msgid ""
+"Set the default costume of the four sprites to Zero, record with the "
+"variables \"num1\", \"num2\", \"num3\", and \"num4\" respectively, and "
+"initialize the positions of the four sprites."
+msgstr ""
+
+#: ../binary_game.rst:51
+msgid ""
+"The program in the figure below is the program of the Zero sprite. The "
+"other three Zero sprites modify the variable names and increase the X "
+"coordinate by 80 to make the effect arranged in order from left to right."
+msgstr ""
+
+#: ../binary_game.rst:57
+msgid ""
+"When we click the √ sign in front of the variable, the variable will "
+"disappear from the stage."
+msgstr ""
+
+#: ../binary_game.rst:64
+msgid "Change the shape by clicking and record the binary value."
+msgstr ""
+
+#: ../binary_game.rst:66
+msgid ""
+"If you click the **Zero** sprite, it will switch its costume to the next "
+"costume, and switch the value of the variable num1, if num1 = 0, change "
+"num1 to 1."
+msgstr ""
+
+#: ../binary_game.rst:68
+msgid ""
+"In this way, the num1 variable can record the value on the blackboard in "
+"real time every time the Zero sprite switches costume."
+msgstr ""
+
+#: ../binary_game.rst:70
+msgid ""
+"Copy the program for the remaining three **Zero** sprites and modify the "
+"variable names."
+msgstr ""
+
+#: ../binary_game.rst:77
+msgid "Conversion of binary numbers and decimal numbers."
+msgstr ""
+
+#: ../binary_game.rst:79
+msgid ""
+"Before programming the Enter sprite, let's first understand the `Binary "
+"number <https://en.wikipedia.org/wiki/Binary_number>`_."
+msgstr ""
+
+#: ../binary_game.rst:81
+msgid ""
+"A binary number is a number expressed in the base-2 numeral system or "
+"binary numeral system, which uses only two symbols: typically \"0\" "
+"(zero) and \"1\" (one)."
+msgstr ""
+
+#: ../binary_game.rst:83
+msgid "How to convert binary to decimal?"
+msgstr ""
+
+#: ../binary_game.rst:85
+msgid "For binary number with n digits:"
+msgstr ""
+
+#: ../binary_game.rst:91
+msgid ""
+"The decimal number is equal to the sum of binary digits (dn) times their "
+"power of 2 (2^n):"
+msgstr ""
+
+#: ../binary_game.rst:98
+msgid ""
+"If binary is 1000, the corresponding decimal should be "
+"1x2^3+0x2^2+0x2^1+0x2^0=8"
+msgstr ""
+
+#: ../binary_game.rst:100
+msgid "So, what is the decimal number of 1010? 1*2^3+0*2^2+1*2^1+0*2^0=10."
+msgstr ""
+
+#: ../binary_game.rst:103
+msgid "Programming the Backdrop"
+msgstr ""
+
+#: ../binary_game.rst:105
+msgid ""
+"When the game starts, a random integer between 1-16 appears in the middle"
+" of our screen as a decimal number that needs to be converted by binary, "
+"and it is stored in the variable random."
+msgstr ""
+
+#: ../binary_game.rst:112
+msgid ""
+"Whether we receive a \"right\" result or a \"wrong\" result, we have to "
+"regenerate the random number and proceed to the next round of the game."
+msgstr ""
+
+#: ../binary_game.rst:119
+msgid "Programming the Enter Sprite"
+msgstr ""
+
+#: ../binary_game.rst:121
+msgid ""
+"After you understand the conversion of binary numbers and decimal "
+"numbers, let's program the Enter sprite."
+msgstr ""
+
+#: ../binary_game.rst:123
+msgid ""
+"First, we create a result variable, when the Enter sprite is clicked, We "
+"convert the binary number composed of the num1 variable, num2 variable, "
+"num3 variable and num4 variable into a decimal number, and save the "
+"result in the result variable."
+msgstr ""
+
+#: ../binary_game.rst:130
+msgid ""
+"Then use the result variable to compare the value of the random variable."
+" If they are equal, we broadcast a \"right\" message, otherwise we "
+"broadcast a \"wrong\" message."
+msgstr ""
+
+#: ../binary_game.rst:136
+msgid ""
+"Now, click on the green flag above the stage area to start the game and "
+"explore the magical binary!"
+msgstr ""
+
+#: ../binary_game.rst:139
+msgid "Challenge"
+msgstr ""
+
+#: ../binary_game.rst:141
+msgid ""
+"I believe that you will be smart enough to program and implement this "
+"game soon. Next, we will add some challenges to enrich our game content."
+msgstr ""
+
+#: ../binary_game.rst:143
+msgid "Add a Zero sprite to convert random integers between 1-32."
+msgstr ""
+
+#: ../binary_game.rst:144
+msgid "When you click on the Zero sprite, a \"Pop\" sound effect will be emitted."
+msgstr ""
+
+#: ../binary_game.rst:145
+msgid "1 point will be deducted for incorrect answers!"
+msgstr ""
+

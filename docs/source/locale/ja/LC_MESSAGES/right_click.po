@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: 2022-01-11 16:11+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../right_click.rst:2
+msgid "Right Click on RasPad"
+msgstr "RasPadを右クリック"
+
+#: ../right_click.rst:4
+msgid ""
+"Touchscreen tablets and displays make it easy for you to perform simple "
+"navigation tasks with your fingers or stylus, but at some point, you may want "
+"to use right-click commands to quickly access context-specific shortcuts."
+msgstr ""
+"タッチスクリーンのタブレットとディスプレイを使用すると、指やスタイラスで簡単な"
+"ナビゲーションタスクを簡単に実行できますが、ある時点で、右クリックコマンドを使"
+"用してコンテキスト固有のショートカットにすばやくアクセスすることもできます。"
+
+#: ../right_click.rst:6
+msgid ""
+"Here we use ``evdev-rce`` to make RasPad's right-click command still available."
+msgstr ""
+"ここでは、「evdev-rce」を使用して、RasPadの右クリックコマンドを引き続き使用でき"
+"るようにします。"
+
+#: ../right_click.rst:8
+msgid "Enter the following command to install the required software."
+msgstr "次のコマンドを入力して、必要なソフトウェアをインストールします。"
+
+#: ../right_click.rst:20
+msgid "Enter the following command to build."
+msgstr "次のコマンドを入力してビルドします。"
+
+#: ../right_click.rst:30
+msgid "Copy the file to the ``/usr`` directory."
+msgstr "ファイルを `` / usr``ディレクトリにコピーします。"
+
+#: ../right_click.rst:40
+msgid "Make it executable."
+msgstr "実行可能にします。"
+
+#: ../right_click.rst:50
+msgid "Modify the ``/etc/rc.local`` file to enable boot-up."
+msgstr "`` / etc / rc.local``ファイルを変更して起動を有効にします。"
+
+#: ../right_click.rst:60
+msgid "After entering ``rc.local``, add the following command before ``exit 0``."
+msgstr "`` rc.local``を入力した後、 `` exit0``の前に次のコマンドを追加します。"
+
+#: ../right_click.rst:66
+msgid ""
+"Press ``Ctrl+C`` -> ``Y`` to exit and save the ``rc.local`` file, and then run "
+"``sudo reboot`` to restart RasPad."
+msgstr ""
+"`` Ctrl + C``-> `` Y``を押して終了し、 `` rc.local``ファイルを保存してから、 "
+"`` sudoreboot``を実行してRasPadを再起動します。"
+
+#: ../right_click.rst:76
+msgid ""
+"After restarting, you can long press on the RasPad desktop and see if the "
+"right click function appears."
+msgstr ""
+"再起動後、RasPadデスクトップを長押しして、右クリック機能が表示されるかどうかを"
+"確認できます。"

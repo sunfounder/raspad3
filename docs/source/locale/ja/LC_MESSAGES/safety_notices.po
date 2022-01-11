@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: 2022-01-11 15:42+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../safety_notices.rst:2
+msgid "SAFETY NOTICES"
+msgstr "安全に関するお知らせ"
+
+#: ../safety_notices.rst:5
+msgid "Precautions about the use of the product"
+msgstr "製品の使用上の注意"
+
+#: ../safety_notices.rst:8
+msgid ""
+"Be sure to use the dedicated power adapter for this product for charging "
+"and discharging, and never use an overpowered power adapter;"
+msgstr ""
+"この製品の充電と放電には必ず専用の電源アダプターを使用し、過電力の電源ア"
+"ダプターは絶対に使用しないでください。"
+
+#: ../safety_notices.rst:10
+msgid ""
+"Do not use the product in a high temperature environment, and the "
+"battery power should not be too low. Generally, it is best to start "
+"charging at about 30%;"
+msgstr ""
+"製品を高温環境で使用しないでください。また、バッテリーの電力が低すぎない"
+"ようにしてください。 通常、充電は約30％から開始するのが最適です。"
+
+#: ../safety_notices.rst:12
+msgid ""
+"Avoid plugging in the power adapter for a long time, and stop charging "
+"after charging. When the product is not in use, it is recommended to "
+"disconnect the power adapter to avoid battery damage caused by long-term "
+"charging."
+msgstr ""
+"電源アダプタを長時間接続しないでください。充電後は充電を停止してくださ"
+"い。 製品を使用しないときは、長期間の充電によるバッテリーの損傷を防ぐため"
+"に、電源アダプターを外すことをお勧めします。"
+
+#: ../safety_notices.rst:16
+msgid "Precautions about the maintenance of lithium batteries"
+msgstr "リチウム電池のメンテナンスに関する注意事項"
+
+#: ../safety_notices.rst:18
+msgid ""
+"Lithium batteries can be stored in a clean, dry, and ventilated room "
+"with an ambient temperature of -5°C—35°C and a relative humidity of not "
+"more than 75%. Avoid contact with corrosive substances and keep away "
+"from fire and heat sources."
+msgstr ""
+"リチウム電池は、周囲温度が-5°C〜35°C、相対湿度が75％以下の、清潔で乾燥し"
+"た換気の良い部屋に保管できます。 腐食性物質との接触を避け、火や熱源から遠"
+"ざけてください。"
+
+#: ../safety_notices.rst:20
+msgid ""
+"Do not store the lithium battery with full charge for a long time. After "
+"long-term storage, it will easily cause swelling, which will affect the "
+"discharge performance. The best storage voltage is about 3.8V for a "
+"single chip. Fully charge before use and then use it, which can "
+"effectively avoid battery swelling."
+msgstr ""
+"リチウム電池をフル充電で長期間保管しないでください。 長期間保管すると、膨"
+"潤しやすくなり、放電性能に影響を及ぼします。 最適なストレージ電圧は、シン"
+"グルチップで約3.8Vです。 使用前に完全に充電してから使用してください。これ"
+"により、バッテリーの膨張を効果的に防ぐことができます。"

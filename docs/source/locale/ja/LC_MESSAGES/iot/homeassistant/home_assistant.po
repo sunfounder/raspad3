@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../iot/homeassistant/home_assistant.rst:2
+msgid "Home Assistant"
+msgstr ""
+
+#: ../iot/homeassistant/home_assistant.rst:7
+msgid ""
+"Home Assistant is a Python-based open source smart home system that "
+"supports smart home devices of many brands and can easily implement voice"
+" control and automation of the devices. You can run Home-assistant on the"
+" Raspberry Pi, without having to send your data out onto the internet. "
+"This means that you have total control over your data, limit the amount "
+"of internet traffic from your smart devices, and tighten up security."
+msgstr ""
+
+#: ../iot/homeassistant/home_assistant.rst:13
+msgid ""
+"And RasPad 3 is powered by Raspberry Pi 4 with 10.1\" HD touch screen and"
+" 5 hours battery life. We also wrote scripts for it to boot up and full "
+"screen self-start, so you can use Home Assistant on RasPad more easily "
+"and quickly."
+msgstr ""
+
+#: ../iot/homeassistant/home_assistant.rst:16
+msgid "**Expand Viewing**"
+msgstr ""
+
+#: ../iot/homeassistant/home_assistant.rst:18
+msgid ""
+"Here are some projects made by others that combine Raspberry Pi and Home "
+"Assistant."
+msgstr ""
+
+#: ../iot/homeassistant/home_assistant.rst:20
+msgid ""
+"`My cheap smart home system | HomeAssistant Wall Panel - AGT Designs "
+"<https://www.youtube.com/watch?v=UiRsiVFwFOU>`_"
+msgstr ""
+
+#: ../iot/homeassistant/home_assistant.rst:21
+msgid ""
+"`Getting started with Home Assistant - JuanMTech "
+"<https://www.youtube.com/watch?v=F57zx3qQXuY>`_"
+msgstr ""
+
+#: ../iot/homeassistant/home_assistant.rst:22
+msgid ""
+"`DIY Home Automation Intruder Alarm System! || Home Assistant + Raspberry"
+" Pi + ESP8266 - GreatScott! "
+"<https://www.youtube.com/watch?v=IvI1RqYPO24>`_"
+msgstr ""
+
+#: ../iot/homeassistant/home_assistant.rst:25
+msgid "**Quick Guide**"
+msgstr ""
+

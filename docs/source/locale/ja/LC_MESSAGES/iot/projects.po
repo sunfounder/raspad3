@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../iot/projects.rst:2
+msgid "Projects"
+msgstr ""
+
+#: ../iot/projects.rst:4
+msgid "In this section, you will start learning to create IoT projects."
+msgstr ""
+
+#: ../iot/projects.rst:6
+msgid ""
+"Before starting the project, you should have downloaded the code we "
+"provided."
+msgstr ""
+
+#: ../iot/projects.rst:8
+msgid ""
+"Open a Terminal and enter the following command to download them from "
+"github."
+msgstr ""
+
+#: ../iot/projects.rst:18
+msgid ""
+"Then copy the codes from the ``iot`` folder to the ``cloud4rpi-"
+"raspberrypi-python`` folder."
+msgstr ""
+

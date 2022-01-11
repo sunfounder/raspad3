@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../iot/homeassistant/log_in.rst:2
+msgid "Log In"
+msgstr ""
+
+#: ../iot/homeassistant/log_in.rst:4
+msgid "Please set up a username and password for your Home Assistant."
+msgstr ""
+
+#: ../iot/homeassistant/log_in.rst:9
+msgid "Create a name for your home and select your region."
+msgstr ""
+
+#: ../iot/homeassistant/log_in.rst:15
+msgid "Select the content you want to share to Home Assistant."
+msgstr ""
+
+#: ../iot/homeassistant/log_in.rst:21
+msgid ""
+"You can choose to configure the device now, or later. It is recommended "
+"that beginners configure the device later, as the configuration is "
+"described in detail later in the tutorial."
+msgstr ""
+
+#: ../iot/homeassistant/log_in.rst:26
+msgid ""
+"After setting up, enter your login username and password in the login "
+"screen."
+msgstr ""
+
+#: ../iot/homeassistant/log_in.rst:33
+msgid ""
+"If the login screen does not jump automatically, please open Home "
+"Assistant again via http://localhost:8123."
+msgstr ""
+
+#: ../iot/homeassistant/log_in.rst:36
+msgid "After logging in successfully, you will enter your Home."
+msgstr ""
+

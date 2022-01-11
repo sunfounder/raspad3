@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: 2022-01-11 15:50+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../quick_user_guide.rst:2
+msgid "QUICK USER GUIDE"
+msgstr "クイックユーザーガイド"
+
+#: ../quick_user_guide.rst:4
+msgid ""
+"This chapter includes flashing the Raspberry Pi image, installing the "
+"virtual keyboard, setting the right-click function and calibrating the "
+"rotating screen function."
+msgstr ""
+"この章では、Raspberry Piイメージのフラッシュ、仮想キーボードのインス"
+"トール、右クリック機能の設定、および回転画面機能の調整について説明しま"
+"す。"

@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: 2022-01-11 16:38+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../faq.rst:2
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../faq.rst:6
+msgid "Fix Raspberry Pi boot problems"
+msgstr "RaspberryPiの起動の問題を修正"
+
+#: ../faq.rst:8
+msgid ""
+"Check whether the power indicator is on, if it does not, you need to charge the "
+"RasPad or try a different power source. It is best to use the power supply "
+"provided by SunFounder."
+msgstr ""
+"電源インジケータがオンになっているかどうかを確認します。オンになっていない場合"
+"は、RasPadを充電するか、別の電源を試す必要があります。 SunFounderが提供する電源"
+"を使用するのが最適です。"
+
+#: ../faq.rst:9
+msgid ""
+"You might be booting but not getting video output. First, check that your "
+"cables are connected properly. Take them all out and reconnect them. Try a "
+"different HDMI cable if you have one."
+msgstr ""
+"起動しているのにビデオ出力が得られない可能性があります。 まず、ケーブルが正しく"
+"接続されていることを確認します。 それらをすべて取り出して、再接続します。 別の"
+"HDMIケーブルがある場合は、それを試してください。"
+
+#: ../faq.rst:10
+msgid ""
+"Take out the microSD card and use Raspberry Pi Imager to flash a new "
+"installation of Raspberry Pi OS to it (see :ref:`Install the Raspberry Pi OS`)."
+msgstr ""
+"microSDカードを取り出し、Raspberry Pi Imagerを使用して、Raspberry Pi OSの新規イ"
+"ンストールをフラッシュします（：ref： `Raspberry Pi OSのインストール`を参照）。"
+
+#: ../faq.rst:11
+msgid "Try a different microSD card."
+msgstr "別のmicroSDカードを試してください。"
+
+#: ../faq.rst:14
+msgid "Can't detect Micro SD card?"
+msgstr "マイクロSDカードを検出できませんか？"
+
+#: ../faq.rst:16
+msgid ""
+"Whether the FFC on the Micro SD card board is connected correctly, refer to :"
+"ref:`ASSEMBLY INSTRUCTIONS`."
+msgstr ""
+"Micro SDカードボードのFFCが正しく接続されているかどうかについては、：ref： `組み"
+"立て手順`を参照してください。"
+
+#: ../faq.rst:17
+msgid ""
+"Check whether the golden finger (transmission signal) on the SD card or the "
+"Micro SD card board turn black. If it is, it means that the gold finger has "
+"been oxidized and you need to erase the oxide layer with an eraser."
+msgstr ""
+"SDカードまたはマイクロSDカードボードの金色の指（送信信号）が黒くなるか確認してく"
+"ださい。 そうである場合は、金の指が酸化されていることを意味し、消しゴムで酸化物"
+"層を消去する必要があります。"
+
+#: ../faq.rst:18
+msgid ""
+"Check whether the SD card is damaged. If the plug of the SD card is unplugged "
+"while reading the SD card, causing the power supply to the card to be "
+"interrupted, the card may be damaged."
+msgstr ""
+"SDカードが破損していないか確認してください。 SDカードの読み取り中にSDカードのプ"
+"ラグを抜くと、カードへの電源供給が途絶える場合があります。"
+
+#: ../faq.rst:21
+msgid "Screen can not be rotated?"
+msgstr "画面が回転できない？"
+
+#: ../faq.rst:23
+msgid "The reason is that the built-in Accel SHIM module has not been calibrated."
+msgstr ""
+"その理由は、組み込みのAccelSHIMモジュールがキャリブレーションされていないためで"
+"す。"
+
+#: ../faq.rst:25
+msgid "Please refer to: :ref:`Install Rotating Screen Service`."
+msgstr "参照:: ref： `回転スクリーンサービスのインストール`。"
+
+#: ../faq.rst:28
+msgid "About sleep problem"
+msgstr "睡眠の問題について"
+
+#: ../faq.rst:30
+msgid ""
+"If your RasPad screen is on but black, this is the Raspberry Pi going into "
+"sleep mode. You can wake up by tapping the touch screen, or by pressing the "
+"external keyboard or mouse."
+msgstr ""
+"RasPad画面がオンになっているが黒の場合、これはRaspberryPiがスリープモードになっ"
+"ています。 タッチスクリーンをタップするか、外部キーボードまたはマウスを押すと、"
+"ウェイクアップできます。"
+
+#: ../faq.rst:32
+msgid ""
+"If the RasPad's screen is not lit or you short press the power button, this is "
+"the RasPad entering sleep mode. You can wake up by pressing the power button "
+"shortly."
+msgstr ""
+"RasPadの画面が点灯しない場合、または電源ボタンを短く押すと、これがRasPadがスリー"
+"プモードになります。 電源ボタンをすぐに押すと、ウェイクアップできます。"
+
+#: ../faq.rst:35
+msgid "About the shutdown problem"
+msgstr "シャットダウンの問題について"
+
+#: ../faq.rst:37
+msgid ""
+"When you click shutdown button on the Raspberry Pi desktop or shutdown the "
+"Raspberry Pi at the command line, the Raspberry Pi will shut down, but the "
+"RasPad is not shut down, it will automatically go to sleep after a period of "
+"time because it does not detect the HDMI signal. You need to long press the "
+"RasPad's power button to shut down."
+msgstr ""
+"Raspberry Piデスクトップのシャットダウンボタンをクリックするか、コマンドラインで"
+"Raspberry Piをシャットダウンすると、Raspberry Piはシャットダウンしますが、RasPad"
+"はシャットダウンされません。シャットダウンしないため、しばらくすると自動的にス"
+"リープ状態になります。 HDMI信号を検出します。 シャットダウンするには、RasPadの電"
+"源ボタンを長押しする必要があります。"
+
+#: ../faq.rst:39
+msgid ""
+"If you directly press and hold the power button of RasPad, both Raspberry Pi "
+"and RasPad will be turned off at the same time. But it should be noted that "
+"this is to turn off the power of the Raspberry Pi directly, which may damage "
+"the Micro SD card. It is recommended to turn off the Raspberry Pi first, and "
+"then turn off RasPad."
+msgstr ""
+"RasPadの電源ボタンを直接押し続けると、RaspberryPiとRasPadの両方が同時にオフにな"
+"ります。 ただし、これはRaspberry Piの電源を直接オフにするためであり、MicroSDカー"
+"ドが損傷する可能性があることに注意してください。 最初にRaspberryPiをオフにしてか"
+"ら、RasPadをオフにすることをお勧めします。"
+
+#: ../faq.rst:42
+msgid "Desktop is not full screen"
+msgstr "デスクトップがフルスクリーンではありません"
+
+#: ../faq.rst:43
+msgid ""
+"If the desktop does not display in full screen after the Raspberry Pi boots, "
+"you need to leave **Underscan** enabled."
+msgstr ""
+"Raspberry Piの起動後にデスクトップがフルスクリーンで表示されない場合は、**アン"
+"ダースキャン**を有効のままにしておく必要があります。"
+
+#: ../faq.rst:45
+msgid ""
+"Click on the menu icon in the top left corner and select **Preferences** -> "
+"**Raspberry Pi Configuration**."
+msgstr ""
+"左上隅のメニューアイコンをクリックし、**環境設定**-> **ラズベリーパイ構成**を選"
+"択します。"
+
+#: ../faq.rst:49
+msgid ""
+"In the **Display** page, make Underscan enabled and then restart the Raspberry "
+"Pi."
+msgstr ""
+"**表示**ページで、アンダースキャンを有効にしてから、RaspberryPiを再起動します。"
+
+#: ../faq.rst:55
+msgid "About the touch problem"
+msgstr "タッチの問題について"
+
+#: ../faq.rst:57
+msgid "**A. Touch does not work**"
+msgstr "** A。 タッチが機能しない**"
+
+#: ../faq.rst:59
+msgid ""
+"First of all, please check whether the internal cables connection are stable."
+msgstr "まず、内部ケーブルの接続が安定しているか確認してください。"
+
+#: ../faq.rst:61
+msgid ""
+"For the old version of RasPad 3, because the touch will become very strange "
+"after an external display, so turn off the touch function."
+msgstr ""
+"古いバージョンのRasPad3の場合、外部ディスプレイの後でタッチが非常に奇妙になるた"
+"め、タッチ機能をオフにします。"
+
+#: ../faq.rst:64
+msgid "**B. Touch inaccurate**"
+msgstr "** B。 不正確なタッチ**"
+
+#: ../faq.rst:66
+msgid ""
+"Because the Raspberry Pi system is based on the PC mouse control, the human "
+"hand can not be as accurate as the mouse, if the touch accuracy problems cause "
+"inconvenience, we recommend that you increase the size of the icon, or use the :"
+"ref:`RasPad LAUNCHER` to install RasPad theme."
+msgstr ""
+"Raspberry PiシステムはPCマウスコントロールに基づいているため、人間の手はマウスほ"
+"ど正確ではありません。タッチ精度の問題により不便が生じる場合は、アイコンのサイズ"
+"を大きくするか、：ref：を使用することをお勧めします。 `RasPad LAUNCHER`は、"
+"RasPadテーマをインストールします。"
+
+#: ../faq.rst:70
+msgid "About the Audio problem"
+msgstr "オーディオの問題について"
+
+#: ../faq.rst:72
+msgid "**A. There is no sound.**"
+msgstr "** A。 音が出ない。**"
+
+#: ../faq.rst:74
+msgid ""
+"If the volume of either RasPad and Raspberry Pi is set to 0, it will result in "
+"no sound."
+msgstr "RasPadとRaspberryPiのいずれかの音量を0に設定すると、音が出なくなります。"
+
+#: ../faq.rst:76
+msgid "**B. headphone jack does not work properly**"
+msgstr "** B。 ヘッドフォンジャックが正しく機能しない**"
+
+#: ../faq.rst:78
+msgid ""
+"Since the 3.5mm headphone jack is inside the RasPad 3 case, please check if the "
+"headphone is fully inserted."
+msgstr ""
+"3.5mmヘッドフォンジャックはRasPad3ケースの中にありますので、ヘッドフォンが完全に"
+"挿入されているかどうかを確認してください。"
+
+#: ../faq.rst:82
+msgid "Fan is too noisy?"
+msgstr "ファンがうるさい？"
+
+#: ../faq.rst:84
+msgid ""
+"This is because the fan speed is too high, which was originally done to enhance "
+"the cooling capacity of RasPad 3. You can reduce the noise by setting the fan "
+"switch on the upper left corner of the mainboard to \\'s\\', but this will "
+"reduce the fan speed as well as the cooling capacity."
+msgstr ""
+"これは、もともとRasPad 3の冷却能力を高めるために行われたファン速度が速すぎるため"
+"です。メインボードの左上隅にあるファンスイッチを\\ 's \\'に設定すると、ノイズを"
+"減らすことができますが、これは ファンの速度と冷却能力が低下します。"
+
+#: ../faq.rst:87
+msgid "Power consumption is too fast?"
+msgstr "消費電力が速すぎますか？"
+
+#: ../faq.rst:89
+msgid ""
+"RasPad's battery capacity is 3x3.7Vx3Ah = 33Wh, which is a bit larger than iPad "
+"pro 2020's 28.65Wh. But because the Raspberry Pi itself is relatively large "
+"power consumption, standby about 3W, and the Raspberry Pi system is not similar "
+"to the power-saving mechanism of the tablet or even iOS. Compared to the "
+"previous generation, we have reduced the original 7w screen drive power "
+"consumption to 3W or less, and the use of time has been improved."
+msgstr ""
+"RasPadのバッテリー容量は3x3.7Vx3Ah = 33Whで、iPad pro2020の28.65Whより少し大きい"
+"です。 ただし、Raspberry Pi自体は比較的消費電力が大きいため、約3Wスタンバイであ"
+"り、RaspberryPiシステムはタブレットやiOSの省電力メカニズムとは異なります。 前世"
+"代と比較して、元の7wスクリーンドライブの消費電力を3W以下に削減し、時間の使用を改"
+"善しました。"
+
+#: ../faq.rst:91
+msgid "We will continue to optimize this use of time."
+msgstr "今後もこの時間の使い方を最適化していきます。"
+
+#: ../faq.rst:94
+msgid "Touch function sometimes fails?"
+msgstr ""
+"语音翻译\n"
+"31 / 5,000\n"
+"翻译结果\n"
+"タッチ機能が失敗することがありますか？ "
+
+#: ../faq.rst:95
+msgid ""
+"When opening some software of Raspberry Pi, you will find some places where "
+"touch does not work, this is caused by Raspberry Pi OS not doing adaptation for "
+"touch screen. We can't solve it and need to wait for the Raspberry Pi OS to "
+"optimize the solution."
+msgstr ""
+"Raspberry Piのソフトウェアを開くと、タッチが機能しない場所がいくつかあります。こ"
+"れは、Raspberry PiOSがタッチスクリーンに適応していないことが原因です。 それを解"
+"決することはできず、Raspberry PiOSがソリューションを最適化するのを待つ必要があり"
+"ます。"
+
+#: ../faq.rst:99
+msgid "The WiFi connection is unstable?"
+msgstr "WiFi接続が不安定ですか？"
+
+#: ../faq.rst:101
+msgid ""
+"Because we found that USB 3.0 high-speed transmission will interfere with the "
+"Raspberry Pi's 2.4G wifi signal. So if you find the 2.4G signal is unstable, "
+"please try to use WIFI 5G AP."
+msgstr ""
+"USB3.0の高速伝送がRaspberryPiの2.4GWi-Fi信号に干渉することがわかったためです。 "
+"したがって、2.4G信号が不安定な場合は、WIFI 5GAPを使用してみてください。"

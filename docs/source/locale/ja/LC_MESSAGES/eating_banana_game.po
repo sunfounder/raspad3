@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../eating_banana_game.rst:3
+msgid "Eating Banana Game"
+msgstr ""
+
+#: ../eating_banana_game.rst:6
+msgid "Description"
+msgstr ""
+
+#: ../eating_banana_game.rst:9
+msgid ""
+"Scratch has a Video Sensing expansion module, which can turn on the "
+"camera in Scratch and detect the movement of objects on the camera "
+"screen."
+msgstr ""
+
+#: ../eating_banana_game.rst:11
+msgid ""
+"Today, we will use the camera to make a eating banana game. In the "
+"stipulated time, help the Monkey eat more bananas."
+msgstr ""
+
+#: ../eating_banana_game.rst:13
+msgid ""
+"To play the game against a white background, click on the green flag to "
+"start. Move colored objects in front of the camera to control the Monkey "
+"sprite."
+msgstr ""
+
+#: ../eating_banana_game.rst:19
+msgid ""
+"Or click `Eating Banana Game "
+"<https://scratch.mit.edu/projects/526931685/editor/>`_, and then learn "
+"online tutorial on the Scratch official website."
+msgstr ""
+
+#: ../eating_banana_game.rst:22
+msgid "Required Components"
+msgstr ""
+
+#: ../eating_banana_game.rst:24
+msgid "A Raspad"
+msgstr ""
+
+#: ../eating_banana_game.rst:25
+msgid "Scratch 3 (either online or offline)"
+msgstr ""
+
+#: ../eating_banana_game.rst:28
+msgid "You Will Learn"
+msgstr ""
+
+#: ../eating_banana_game.rst:30
+msgid "Install camera on RasPad."
+msgstr ""
+
+#: ../eating_banana_game.rst:31
+msgid "Add Video Sensing expansion module and use camera function"
+msgstr ""
+
+#: ../eating_banana_game.rst:32
+msgid "Let the camera detect our movements"
+msgstr ""
+
+#: ../eating_banana_game.rst:35
+msgid "Lesson Guide"
+msgstr ""
+
+#: ../eating_banana_game.rst:38
+msgid "Install and use the camera."
+msgstr ""
+
+#: ../eating_banana_game.rst:40
+msgid ""
+"For the camera installation tutorial, please refer to :ref:`Assemble the "
+"Camera Module`."
+msgstr ""
+
+#: ../eating_banana_game.rst:46
+msgid ""
+"Click the \"Add Extension\" icon at the bottom left of scratch and select"
+" the **Video Sensing** extension."
+msgstr ""
+
+#: ../eating_banana_game.rst:52
+msgid "At this point, you can see the camera shot on the Scratch stage."
+msgstr ""
+
+#: ../eating_banana_game.rst:55
+msgid "Arrange monkeys and bananas"
+msgstr ""
+
+#: ../eating_banana_game.rst:57
+msgid ""
+"First, we delete the original sprite, then add Monkey sprite and Bananas "
+"sprite, and change their sizes to 50."
+msgstr ""
+
+#: ../eating_banana_game.rst:59
+msgid "Let Bananas appear randomly."
+msgstr ""
+
+#: ../eating_banana_game.rst:65
+msgid ""
+"Bananas disappears after encountering the Monkey, which means it was "
+"eaten by the Monkey and reappears randomly."
+msgstr ""
+
+#: ../eating_banana_game.rst:71
+msgid ""
+"Let the Monkey appear in the center of the stage and initialize the "
+"camera data (transparency is set to 20)."
+msgstr ""
+
+#: ../eating_banana_game.rst:77
+msgid ""
+"If the camera detects an object moving, let the Monkey move towards the "
+"object."
+msgstr ""
+
+#: ../eating_banana_game.rst:83
+msgid ""
+"Now, click on the green flag at the top of the stage area to start the "
+"game."
+msgstr ""
+
+#: ../eating_banana_game.rst:85
+msgid ""
+"Let the Monkey eat bananas, it is very hungry! Try to play this game on a"
+" white background to prevent interference from other objects."
+msgstr ""
+
+#: ../eating_banana_game.rst:88
+msgid "Challenge"
+msgstr ""
+
+#: ../eating_banana_game.rst:90
+msgid ""
+"I believe that you will be smart enough to program and implement this "
+"game soon. Next, we will add some challenges to enrich our game content."
+msgstr ""
+
+#: ../eating_banana_game.rst:92
+msgid ""
+"When Monkey eats banana, we add 1 to the score. Within 30s, see who has "
+"the highest score!"
+msgstr ""
+
+#: ../eating_banana_game.rst:93
+msgid "When Monkey eats a banana, it emits a suitable sound effect."
+msgstr ""
+

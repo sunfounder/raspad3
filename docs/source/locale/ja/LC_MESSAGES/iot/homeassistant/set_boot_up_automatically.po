@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../iot/homeassistant/set_boot_up_automatically.rst:2
+msgid "Start the Home Assistant Service at Boot"
+msgstr ""
+
+#: ../iot/homeassistant/set_boot_up_automatically.rst:4
+msgid ""
+"Normally, Docker is self-starting after booting by default, which also "
+"means that after you install Home Assistant, you can use it as long as "
+"you start the Raspberry Pi."
+msgstr ""
+
+#: ../iot/homeassistant/set_boot_up_automatically.rst:6
+msgid ""
+"You can use the following command to view the boot list. The "
+"``docker.service`` should be in the ``enabled`` state."
+msgstr ""
+
+#: ../iot/homeassistant/set_boot_up_automatically.rst:17
+msgid "To turn off Docker's self-startup, please enter the following command:"
+msgstr ""
+
+#: ../iot/homeassistant/set_boot_up_automatically.rst:28
+msgid "To enable Docker's self-startup, please enter the following command:"
+msgstr ""
+

@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: 2022-01-11 16:23+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../appendix/appendix.rst:2
+msgid "APPENDIX"
+msgstr "付録"
+
+#: ../appendix/appendix.rst:4
+msgid ""
+"For new RasPad users, the following sections are essential operations "
+"that will need to be used for doing certain projects. Please read these "
+"sections carefully."
+msgstr ""
+"新しいRasPadユーザーの場合、次のセクションは、特定のプロジェクトを実行す"
+"るために使用する必要がある重要な操作です。 これらのセクションを注意深く"
+"お読みください。"

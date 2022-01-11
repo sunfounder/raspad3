@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../flappy_parrot.rst:2
+msgid "Flappy Parrot"
+msgstr ""
+
+#: ../flappy_parrot.rst:5
+msgid "Description"
+msgstr ""
+
+#: ../flappy_parrot.rst:7
+msgid "Today we made the parrot Devin avoid the trees for food."
+msgstr ""
+
+#: ../flappy_parrot.rst:9
+msgid "Click on the green flag to start."
+msgstr ""
+
+#: ../flappy_parrot.rst:15
+msgid ""
+"Or click `Flappy Parrot "
+"<https://scratch.mit.edu/projects/526929606/editor/>`_, and then learn "
+"online tutorial on the Scratch official website."
+msgstr ""
+
+#: ../flappy_parrot.rst:18
+msgid "Required Components"
+msgstr ""
+
+#: ../flappy_parrot.rst:20
+msgid "A RasPad 3"
+msgstr ""
+
+#: ../flappy_parrot.rst:21
+msgid "Scratch 3 (either online or offline)"
+msgstr ""
+
+#: ../flappy_parrot.rst:24
+msgid "You Will Learn"
+msgstr ""
+
+#: ../flappy_parrot.rst:26
+msgid "Add more costumes to sprites and let them change their appearance"
+msgstr ""
+
+#: ../flappy_parrot.rst:27
+msgid "Logical Operation"
+msgstr ""
+
+#: ../flappy_parrot.rst:28
+msgid "Determine if the sprites are touching each other"
+msgstr ""
+
+#: ../flappy_parrot.rst:31
+msgid "Lesson Guide"
+msgstr ""
+
+#: ../flappy_parrot.rst:34
+msgid "Arrange the parrot and background image"
+msgstr ""
+
+#: ../flappy_parrot.rst:36
+msgid ""
+"First, we delete the default sprites and add Parrot sprites and Blue Sky "
+"backdrop. Change the size of the Parrot sprite to 20."
+msgstr ""
+
+#: ../flappy_parrot.rst:42
+msgid ""
+"Upload the Trees sprite, select the Upload Sprite option, find the "
+"\"Trees.png\" file, and upload it."
+msgstr ""
+
+#: ../flappy_parrot.rst:44
+msgid ""
+"Click Costumes, and then click the \"Upload Costume\" option to upload "
+"Trees2.png, Trees3.png, Trees4.png, and Trees5.png."
+msgstr ""
+
+#: ../flappy_parrot.rst:50
+msgid "Copy out the second Trees."
+msgstr ""
+
+#: ../flappy_parrot.rst:57
+msgid "Let the Parrot sprite fly on the stage"
+msgstr ""
+
+#: ../flappy_parrot.rst:59
+msgid ""
+"Parrot stayed still, and the Trees and Trees2 sprites kept moving to the "
+"left, so it looked like the Parrot sprites were flying on the stage!"
+msgstr ""
+
+#: ../flappy_parrot.rst:61
+msgid ""
+"Set the initial position and movement of the Trees sprite so that it can "
+"reach the far left from the far right of the stage. Then, randomly "
+"changing costumes reappear on the far right side of the stage."
+msgstr ""
+
+#: ../flappy_parrot.rst:67
+msgid ""
+"The code of the Trees2 sprite is almost the same as the Trees sprite, the"
+" only difference is that it hides for 1.5 seconds at the beginning."
+msgstr ""
+
+#: ../flappy_parrot.rst:73
+msgid ""
+"Now, click on the green flag to see the effect of this flight... Very "
+"good, the Parrot sprite seems to be flying to the right side of the "
+"stage."
+msgstr ""
+
+#: ../flappy_parrot.rst:76
+msgid "Let the space button control Parrot to fly"
+msgstr ""
+
+#: ../flappy_parrot.rst:78
+msgid ""
+"When the game starts, Parrot will continue to drop down, that is, the y "
+"coordinate will continue to decrease. When we press the space button, the"
+" y coordinate of Parrot will increase."
+msgstr ""
+
+#: ../flappy_parrot.rst:85
+msgid "Constantly increase the speed of Parrot falling through variables"
+msgstr ""
+
+#: ../flappy_parrot.rst:87
+msgid ""
+"Parrot drop is a bit slow, we add flight variables to make Parrot drop "
+"more and more!"
+msgstr ""
+
+#: ../flappy_parrot.rst:94
+msgid "Change the costume so that Parrot has flight animation"
+msgstr ""
+
+#: ../flappy_parrot.rst:96
+msgid "When we press the Space button, Parrot's clothing switches to Parrot-b."
+msgstr ""
+
+#: ../flappy_parrot.rst:103
+msgid "Calculate the score!"
+msgstr ""
+
+#: ../flappy_parrot.rst:105
+msgid ""
+"Create a new score variable. When the Trees and Trees2 sprites move to "
+"the right side of the Parrot sprite, it means that Parrot has crossed the"
+" Trees and Trees2. At this time, we will add score+1. In order to avoid "
+"always adding points, we need to add it after score+1 Wait 1 second for "
+"the code. (This code is required in both Trees and Trees2 sprites!)"
+msgstr ""
+
+#: ../flappy_parrot.rst:112
+msgid "Game failure mechanism"
+msgstr ""
+
+#: ../flappy_parrot.rst:114
+msgid ""
+"When the Parrot sprite encounters a tree or falls to the ground during "
+"the flight, we judge the game is over, and then we stop all scripts."
+msgstr ""
+
+#: ../flappy_parrot.rst:121
+msgid "Challenge"
+msgstr ""
+
+#: ../flappy_parrot.rst:123
+msgid ""
+"I believe that you will be smart enough to program and implement this "
+"game soon. Next, we will add some challenges to enrich our game content."
+msgstr ""
+
+#: ../flappy_parrot.rst:125
+msgid "When the game fails, it switches to a cursing background screen."
+msgstr ""
+
+#: ../flappy_parrot.rst:126
+msgid ""
+"Add a countdown screen to the game start screen, let us prepare for the "
+"game."
+msgstr ""
+

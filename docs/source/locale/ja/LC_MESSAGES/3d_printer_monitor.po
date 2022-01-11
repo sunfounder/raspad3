@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../3d_printer_monitor.rst:2
+msgid "3D Printer Monitor"
+msgstr ""
+
+#: ../3d_printer_monitor.rst:4
+msgid ""
+"When using a 3D printer, we will need to use OctoPrint. It is an open "
+"source 3D printer controller application, which provides a web interface "
+"for the connected printers. It displays printers' status and key "
+"parameters and allows user to schedule prints and remotely control the "
+"printer."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:6
+msgid ""
+"Please refer to the detailed installation tutorial for OctoPrint: "
+"https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-"
+"running-raspbian-or-raspberry-pi-os/2337."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:8
+msgid ""
+"This tutorial has written very detailed installation steps, which may "
+"take a long time and requires more patience."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:12
+msgid ""
+"The Raspberry Pi Operating System will need to be installed on the micro-"
+"SD card before starting the tutorial. Please refer to :ref:`INSTALL THE "
+"RASPBERRY PI OS`."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:13
+msgid ""
+"**Webcam Option**: A camera will need to be installed on the RasPad for "
+"webcam use. Please refer to the tutorial: :ref:`Assemble the Camera "
+"Module`."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:14
+msgid ""
+"**Touch UI Option**: A new Raspberry Pi image might not have an auto "
+"start function for Touch UI. Please refer to the tutorial: :ref:`Touch "
+"UI` to configure the settings for the Touch UI function."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:17
+msgid "Touch UI"
+msgstr ""
+
+#: ../3d_printer_monitor.rst:19
+msgid ""
+"If the ``autostart`` file is not located in the ``~/.config/lxsession"
+"/LXDE-pi`` path, the file will need to be added manually."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:21
+msgid ""
+"Create the ``lxsession`` folder and the ``LXDE-pi`` folder in the "
+"``~/config`` directory."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:33
+msgid ""
+"Copy the ``autostart`` file from the path ``/etc/xdg/lxsession/LXDE-pi`` "
+"to the ``~/.config/lxsession/LXDE-pi`` folder."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:43
+msgid "Set the permissions of the ``autostart`` file to be readable and writable."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:54
+msgid ""
+"Open the autostart file with a text editor such as ``Nano``, and add the "
+"following line to the end of the file to make the RasPad execute the "
+"``startTouchUI.sh`` script file on boot."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:64
+msgid ""
+"After restarting the RasPad, the OctoPrint’s Touch UI will open in full "
+"screen mode. Press ``F11`` to exit the full screen mode and enter the "
+"desktop."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:67
+msgid "Make a 3D Model"
+msgstr ""
+
+#: ../3d_printer_monitor.rst:69
+msgid ""
+"Click this link: "
+"https://projects.raspberrypi.org/en/projects?hardware%5B%5D=3d-printer, "
+"refer to the official Raspberry Pi tutorial, you can get the 3D model "
+"file in the format of .stl."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:71
+msgid ""
+"Generally, 3D printers cannot directly process .stl files. You need to "
+"use **Ultimaker Cura** software to slice them, and then upload them to "
+"the 3D printer through **OctoPrint** to print the 3D model file."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:73
+msgid ""
+"Download `Ultimaker Cura <https://ultimaker.com/software/ultimaker-"
+"cura>`_. Since Ultimaker Cura is not available on the Raspberry Pi "
+"system, you need to perform the slicing operation on your computer."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:79
+msgid "Select the version you need."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:84
+msgid ""
+"When installing Ultimaker Cura, please note that in the **choose "
+"components** step, **Open STL files with Cura** has been checked by "
+"default, so that .stl files can be sliced."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:86
+msgid ""
+"If you want to slice other types of model files, check the corresponding "
+"option, otherwise you can install it directly."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:92
+msgid ""
+"When opening Ultimaker Cura for the first time, there will be a series of"
+" configuration prompts. At the **Add a Printer** step, select the model "
+"of printer used and click **Next**."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:98
+msgid ""
+"After selecting the correct printer model, verify that the parameters "
+"provided by Ultimaker Cura in the Machine Settings page are correct, or "
+"change the parameters directly."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:100
+msgid ""
+"Follow the onscreen prompts to complete the configuration of Ultimaker "
+"Cura."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:106
+msgid ""
+"Once Ultimaker Cura has successfully launched, click the **Folder** icon "
+"in the upper left-hand corner and browse to the folder with the .stl 3D "
+"model file that needs to be sliced, and click **Open** to add the .stl "
+"file to Ultimaker Cura's library."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:112
+msgid ""
+"After the file has been added, click the **Slice** option in the lower "
+"right-hand corner, and Ultimaker Cura will automatically perform the "
+"slicing operation."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:118
+msgid ""
+"After slicing is complete, click the **Save to Disk** option in the lower"
+" right corner to save the sliced ​​file locally."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:124
+msgid ""
+"Select the type of file extension recognized by the 3D printer, then "
+"click **Save**."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:132
+msgid "Print 3D Model"
+msgstr ""
+
+#: ../3d_printer_monitor.rst:134
+msgid ""
+"After the .stl file has been sliced, the 3D model file can be sent to the"
+" 3D printer through OctoPrint to be printed."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:136
+msgid ""
+"Open the RasPad's browser, and enter ``http://192.168.18.179/?#temp`` to "
+"log in to OctoPrint."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:141
+msgid ""
+"Before logging in to the OctoPrint’s web UI, OctoPrint will first need to"
+" have been successfully installed on the RasPad."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:143
+msgid ""
+"The IP address 192.168.18.179 will need to be replaced with the local IP "
+"address of the RasPad. Hover the cursor over the WiFi icon on the RasPad "
+"desktop, and the local IP address will be displayed."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:149
+msgid "Now you have entered OctoPrint."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:155
+msgid "Click the **Upload** option to select the sliced ​​3D model file."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:161
+msgid ""
+"Click the **print** icon. The 3D printer will start to print the 3D model"
+" file after the slicing process is complete."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:167
+msgid ""
+"If you have transferred the sliced ​​file to the Raspberry Pi, you can "
+"also open the OctoPrint UI in RasPad to print."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:175
+msgid "Video"
+msgstr ""
+
+#: ../3d_printer_monitor.rst:177
+msgid ""
+"The following video shows that after installing OctoPrint, connect your "
+"3D printer and RasPad 3 through a USB cable，upload the designed 3D file, "
+"and then use the camera to monitor the printing process."
+msgstr ""
+
+#: ../3d_printer_monitor.rst:179
+msgid ""
+"The temperature can also be monitored to prevent the 3D printer from "
+"getting too hot or cold, which will affect the printed 3D model."
+msgstr ""
+

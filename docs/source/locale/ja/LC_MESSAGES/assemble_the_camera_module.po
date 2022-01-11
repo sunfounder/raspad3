@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: 2022-01-11 16:25+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../appendix/assemble_the_camera_module.rst:3
+msgid "Assemble the Camera Module"
+msgstr "カメラモジュールを組み立てる"
+
+#: ../appendix/assemble_the_camera_module.rst:5
+msgid ""
+"Open the back cover of the RasPad. Connect the FFC cable to the CSI "
+"interface of the Camera Module. Carefully pass the CSI interface cable "
+"through the slot on the back cover of the RasPad. Connect the CSI "
+"interface of the Raspberry Pi. Then carefully close the back cover of "
+"the RasPad."
+msgstr ""
+"RasPadの裏表紙を開きます。 FFCケーブルをカメラモジュールのCSIインター"
+"フェースに接続します。 RasPadの背面カバーにあるスロットにCSIインターフェ"
+"イスケーブルを慎重に通します。 RaspberryPiのCSIインターフェイスを接続しま"
+"す。 次に、RasPadの背面カバーを慎重に閉じます。"
+
+#: ../appendix/assemble_the_camera_module.rst:10
+msgid ""
+"The SD card slot is a snap-in style attached to the back cover. Before "
+"removing or replacing the back cover, remove the micro-SD card to avoid "
+"damaging the micro-SD card and the RasPad's internal button board."
+msgstr ""
+"SDカードスロットは、背面カバーに取り付けられたスナップインスタイルです。 "
+"背面カバーを取り外したり交換したりする前に、micro-SDカードとRasPadの内部"
+"ボタンボードを損傷しないように、micro-SDカードを取り外してください。"
+
+#: ../appendix/assemble_the_camera_module.rst:16
+msgid ""
+"Insert the micro-SD card with the Raspberry Pi OS image into the slot, "
+"and long-press the power button to boot the RasPad."
+msgstr ""
+"Raspberry Pi OSイメージが入ったmicro-SDカードをスロットに挿入し、電源ボタ"
+"ンを長押ししてRasPadを起動します。"
+
+#: ../appendix/assemble_the_camera_module.rst:22
+msgid "Open **Raspberry Pi Configuration**."
+msgstr "** RaspberryPi構成**を開きます。"
+
+#: ../appendix/assemble_the_camera_module.rst:28
+msgid ""
+"In the **Interfaces** option, **Enable** the Camera, and then click "
+"**OK**."
+msgstr ""
+"[**インターフェース**]オプションで、カメラを**有効化**し、[** OK **]をク"
+"リックします。"
+
+#: ../appendix/assemble_the_camera_module.rst:35
+msgid "In the pop-up prompt box, choose to restart now."
+msgstr ""
+"[**インターフェース**]オプションで、[カメラを**有効にする**]をクリック"
+"し、[** OK **]をクリックします。ポップアッププロンプトボックスで、今すぐ"
+"再起動することを選択します。"
+
+#: ../appendix/assemble_the_camera_module.rst:41
+msgid ""
+"After the restart is complete, use the following command line to check "
+"whether the camera is available."
+msgstr ""
+"再起動が完了したら、次のコマンドラインを使用して、カメラが使用可能かどう"
+"かを確認します。"
+
+#: ../appendix/assemble_the_camera_module.rst:43
+msgid ""
+"If the camera screen appears it means that the camera is installed "
+"successfully. Otherwise the FFC cable needs to be unplugged and plugged "
+"in again."
+msgstr ""
+"カメラ画面が表示された場合は、カメラが正常にインストールされたことを意味"
+"します。 それ以外の場合は、FFCケーブルを抜いて再度差し込む必要がありま"
+"す。"

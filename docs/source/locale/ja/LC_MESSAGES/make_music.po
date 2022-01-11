@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SunFounder
+# This file is distributed under the same license as the SunFounder RasPad 3
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SunFounder RasPad 3 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 10:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../make_music.rst:2
+msgid "Make Music"
+msgstr ""
+
+#: ../make_music.rst:5
+msgid "Description"
+msgstr ""
+
+#: ../make_music.rst:8
+msgid ""
+"Everyone has been to the concert hall. It is filled with a dazzling array"
+" of musical instruments. These musical instruments make wonderful sounds "
+"under the performance of musicians."
+msgstr ""
+
+#: ../make_music.rst:10
+msgid ""
+"Today we will also be a musician and add some musical instruments on the "
+"stage of Scratch. When you click on different instruments, they will emit"
+" corresponding instrument sounds."
+msgstr ""
+
+#: ../make_music.rst:12
+msgid "Click the green flag to start."
+msgstr ""
+
+#: ../make_music.rst:18
+msgid ""
+"Or click `Make Music "
+"<https://scratch.mit.edu/projects/526926741/editor/>`_, and then learn "
+"online tutorial on the Scratch official website."
+msgstr ""
+
+#: ../make_music.rst:22
+msgid "Required Components"
+msgstr ""
+
+#: ../make_music.rst:24
+msgid "A RasPad 3"
+msgstr ""
+
+#: ../make_music.rst:25
+msgid "Scratch 3 (either online or offline)"
+msgstr ""
+
+#: ../make_music.rst:28
+msgid "You Will Learn"
+msgstr ""
+
+#: ../make_music.rst:30
+msgid "Use the Scratch **Add Extension** function to add music extension."
+msgstr ""
+
+#: ../make_music.rst:31
+msgid "Modify the initial size of the sprite."
+msgstr ""
+
+#: ../make_music.rst:32
+msgid "Let the sprites do some actions."
+msgstr ""
+
+#: ../make_music.rst:35
+msgid "Lesson Guide"
+msgstr ""
+
+#: ../make_music.rst:38
+msgid "We Need the Drums."
+msgstr ""
+
+#: ../make_music.rst:40
+msgid ""
+"Click on the \"Add Extension\" icon at the bottom left of Scratch, select"
+" **Music**, and then you will find a new extension-Music on the left side"
+" of Scratch."
+msgstr ""
+
+#: ../make_music.rst:46
+msgid "Delete the original sprite, add Drum-highhat sprite and Drum-snare sprite."
+msgstr ""
+
+#: ../make_music.rst:53
+msgid ""
+"Adjust the Drum-highhat sprite and Drum-snare sprite to the appropriate "
+"size."
+msgstr ""
+
+#: ../make_music.rst:60
+msgid "Play Drum-highhat."
+msgstr ""
+
+#: ../make_music.rst:62
+msgid ""
+"Click on the Drum-highhat sprite and drag out the 「**play drum...**」 "
+"block in the Music expansion module."
+msgstr ""
+
+#: ../make_music.rst:69
+msgid ""
+"Change the option to **(5) Open Hi-Hat**, then use the \"next costume\" "
+"block to switch the appearance of Drum-highhat."
+msgstr ""
+
+#: ../make_music.rst:75
+msgid "Now, you can play the Drum-highhat."
+msgstr ""
+
+#: ../make_music.rst:78
+msgid "Play Drum-snare."
+msgstr ""
+
+#: ../make_music.rst:80
+msgid ""
+"Click on the Drum-snare sprite and drag out the 「**play drum...**」 block "
+"in the Music expansion module."
+msgstr ""
+
+#: ../make_music.rst:86
+msgid ""
+"Change the option to **(1) Snare Drum**, then use the \"next costume\" "
+"block to switch the appearance of Drum-snare."
+msgstr ""
+
+#: ../make_music.rst:92
+msgid "Now, you can play theDrum-snare."
+msgstr ""
+
+#: ../make_music.rst:95
+msgid "Challenge"
+msgstr ""
+
+#: ../make_music.rst:97
+msgid ""
+"I believe that you will be smart enough to program and implement this "
+"game soon. Next, we will add some challenges to enrich our game content."
+msgstr ""
+
+#: ../make_music.rst:99
+msgid ""
+"Add Drum sprite, Drum Kit sprite and Drum-cymbal sprite, modify their "
+"size, and choose suitable sound effects. In this way we have made a drum "
+"set."
+msgstr ""
+
+#: ../make_music.rst:102
+msgid "Sprite"
+msgstr ""
+
+#: ../make_music.rst:102
+msgid "Size"
+msgstr ""
+
+#: ../make_music.rst:102
+msgid "Instrument tone options"
+msgstr ""
+
+#: ../make_music.rst:104
+msgid "Drum"
+msgstr ""
+
+#: ../make_music.rst:104 ../make_music.rst:106
+msgid "200"
+msgstr ""
+
+#: ../make_music.rst:104
+msgid "(3)Side Stick"
+msgstr ""
+
+#: ../make_music.rst:105
+msgid "Drum Kit"
+msgstr ""
+
+#: ../make_music.rst:105
+msgid "150"
+msgstr ""
+
+#: ../make_music.rst:105
+msgid "(2)Bass Drum"
+msgstr ""
+
+#: ../make_music.rst:106
+msgid "Drum-cymbal"
+msgstr ""
+
+#: ../make_music.rst:106
+msgid "(4)Crash Cymbal"
+msgstr ""
+
