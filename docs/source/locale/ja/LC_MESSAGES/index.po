@@ -30,6 +30,7 @@ msgid ""
 "long battery life. Easily assembled with 2 steps to get started anytime "
 "anywhere."
 msgstr ""
+"Raspberry Pi4Bと完全に互換性のある理想的なプログラミングRaspberryPiタブレット。 内部10.1インチIPSPiタッチスクリーンLCDモニター、1280×800ピクセルの高解像度、10本の指のタッチ、5時間の長いバッテリー寿命を備えたRasPad。 2つのステップで簡単に組み立てられ、いつでもどこでも開始できます。"
 
 #: ../index.rst:11
 msgid ""
@@ -39,6 +40,7 @@ msgid ""
 "placed flat or upright on the table, or rotate it 90°/180°/270° to give "
 "amazing presentations!"
 msgstr ""
+"HDMIを活用することで、RasPadを他のモニターで簡単に拡張して、マルチタスクを改善したり、ディスプレイをミラーリングしたりできます。 さらに、三角形の構造設計と6軸加速度センサーにより、テーブル上に平らまたは直立させたり、90°/ 180°/ 270°回転させたりして、すばらしいプレゼンテーションを行うことができます。"
 
 #: ../index.rst:13
 msgid ""
@@ -49,6 +51,7 @@ msgid ""
 "making users build projects or install cameras for RasPad. You can start "
 "programming from anywhere and fun daily work."
 msgstr ""
+"イーサネット、HDMI、オーディオ、USB、および電源を含むすべてのRaspberryPiポートを備えています。 すべてのRPiI / Oインターフェイス、カスタマイズされたOS、ステレオスピーカー、および開発者が便利なハードウェアハッキング体験を提供するためのその他の多くの機能、特別に設計されたGPIO拡張機能、およびユーザーがRasPad用のプロジェクトを構築したりカメラをインストールしたりできるカメラホール。 どこからでもプログラミングを始めて、毎日の仕事を楽しくすることができます。"
 
 #: ../index.rst:15
 msgid ""
@@ -58,10 +61,11 @@ msgid ""
 "Display to make 3D print/ play games/ build IoT projects/ learn Scratch "
 "3.0."
 msgstr ""
+"Arduino、Raspbian、Ubuntuデスクトップ、Chromium OS、Androidなどと互換性があります…プログラムするタブレットとリモートコントローラーとスペアディスプレイを実現します。 プログラミングに加えて、RasPadは、3Dプリントの作成、ゲームのプレイ、IoTプロジェクトの構築、Scratch3.0の学習に適したリモートストリームディスプレイとして使用できます。"
 
 #: ../index.rst:31
 msgid "Copyright Notice"
-msgstr ""
+msgstr "著作権表示"
 
 #: ../index.rst:33
 msgid ""
@@ -74,4 +78,5 @@ msgid ""
 "commercial profit without permission, the Company reserves the right to "
 "take legal action."
 msgstr ""
+"このマニュアルのテキスト、画像、およびコードを含むがこれらに限定されないすべてのコンテンツは、SunFounderCompanyが所有しています。 著者および関連する権利所有者の法的権利を侵害することなく、関連する規制および著作権法に基づいて、個人的な調査、調査、楽しみ、またはその他の非営利または非営利目的でのみ使用する必要があります。 これらを許可なく商業的利益のために使用する個人または組織については、当社は法的措置を取る権利を留保します。"
 
