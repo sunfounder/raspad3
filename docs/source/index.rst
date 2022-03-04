@@ -24,6 +24,7 @@ Compatible with Arduino, Raspbian, Ubuntu Desktop, Chromium OS, Android and more
     quick_user_guide
     raspad_launcher
     interfaces_introduction
+    raspad_projects_and_activities
     appendix/appendix
     faq
 

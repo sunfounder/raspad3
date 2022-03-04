@@ -3,10 +3,12 @@ ASSEMBLY INSTRUCTIONS
 
 1. Before inserting the Micro SD card, connect the button-board to the Raspberry Pi using the included FFC cable.
 2. Connect all the cables, and then attach the Raspberry Pi with four of the M2.5x4 screws.
-3. Orient the fan so the logo is facing the exterior vent, then attach the fan with the four M2.5x9 screws.
+3. Orient the fan so the logo is facing the exterior vent, then attach the fan with the four PWA1.7X9 screws.
 4. Finally, attach the back cover with five M2.5x4 screws.
 
 .. image:: img/assemble_ful.jpg
+  :width: 800
+  :align: center
 
 
 **Detailed Assembly Steps**
@@ -94,7 +96,7 @@ To use the GPIO pins of the Raspberry Pi, connect a 40-pin GPIO ribbon cable to 
   :width: 600
   :align: center
 
-Attach the fan onto the back cover with four M2.5x9 screws.
+Attach the fan onto the back cover with four PWA1.7X9 screws.
 
 .. note::
 

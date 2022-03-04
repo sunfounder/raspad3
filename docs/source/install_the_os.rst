@@ -58,21 +58,21 @@ Select the SD card you are using.
   :width: 550
   :align: center
 
-Press ``Ctrl+Shift+X`` to open the Advanced options page to enable SSH and configure wifi, these 2 items must be set, the others depend on your choice. You can choose to always use this image customization options.
+.. Press ``Ctrl+Shift+X`` to open the Advanced options page to enable SSH and configure wifi, these 2 items must be set, the others depend on your choice. You can choose to always use this image customization options.
 
-.. image:: img/3d5.png
-  :width: 550
-  :align: center
+.. .. image:: img/3d5.png
+..   :width: 550
+..   :align: center
 
-Scroll down to configure the WiFi settings, and then click **SAVE**.
+.. Scroll down to configure the WiFi settings, and then click **SAVE**.
 
-.. note::
+.. .. note::
 
-  The entry for the **WiFi country** should be set to a designated two-letter ISO/IEC alpha2 code designated to the country. Please reference the following link: `https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_.
+..   The entry for the **WiFi country** should be set to a designated two-letter ISO/IEC alpha2 code designated to the country. Please reference the following link: `https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_.
 
-.. image:: img/3d6.png
-  :width: 550
-  :align: center
+.. .. image:: img/3d6.png
+..   :width: 550
+..   :align: center
 
 Click the **WRITE** button.
 
