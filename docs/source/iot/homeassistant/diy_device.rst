@@ -9,7 +9,7 @@
 
 **添加集成**
 
-1. 现在，访问 http://ip:8123 以进入您的 Home Assistant，然后单击左栏中的 **Configuration** 并选择 **Intergrations**。
+1. 现在，访问 http://ip:8123 以进入您的 Home Assistant，然后单击左栏中的 **Settings** 并选择 **Devices/Services**。
    
 .. image:: media/image12.png
    :align: center

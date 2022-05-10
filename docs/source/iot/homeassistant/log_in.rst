@@ -1,7 +1,7 @@
 登录
 =========
 
-1. 请为您的Home Assistant设置用户名和密码。
+1. 现在，访问 http://ip:8123 以进入您的 Home Assistant，然后为您的Home Assistant设置用户名和密码。
 
 .. image:: media/image56.png
     :align: center
