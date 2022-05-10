@@ -1,7 +1,7 @@
 Log In
 =========
 
-1. Please set up a username and password for your Home Assistant.
+1. Now you can enter http://<ip>:8123 in the browser to enter the Home Assistant operation interface. Then set up a username and password for your Home Assistant.
 
 .. image:: media/image56.png
     :align: center

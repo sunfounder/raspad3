@@ -10,7 +10,7 @@ Before you start the following operations, you need to complete :ref:`Install an
 **Add Integration**
 
 
-1. Now, visit http://ip:8123 to access your Home Assistant, then click **Configuration** in the left column and select **Intergrations**.
+1. Now, visit http://ip:8123 to access your Home Assistant, click **Settings** in the left column, select **Devices & Services**.
    
 .. image:: media/image12.png
    :align: center
@@ -21,7 +21,7 @@ If your smart device is not yet discovered, don't worry, you can add it via the 
 .. image:: media/sp210917_111709.png
    :align: center
 
-3. Search for ESPHome in the pop-up window and fill in the Host (the IP recorded after the INSTALL step in chapter:ref:`Install and configure ESPHome`), with the option to place your esp-light in the bedroom, kitchen or other area of your choice.
+3. Search for ESPHome in the pop-up window and fill in the Host (the IP recorded after the INSTALL step in chapter :ref:`Install and configure ESPHome`), with the option to place your esp-light in the bedroom, kitchen or other area of your choice.
 
 .. image:: media/add_esphome.png
    :align: center
