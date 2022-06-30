@@ -1,23 +1,12 @@
 Right Click on RasPad
 ===============================
 
-Touchscreen tablets and displays make it easy for you to perform simple navigation tasks with your fingers or stylus, but at some point, you may want to use right-click commands to quickly access context-specific shortcuts.
+The touchscreen makes it easy to perform simple navigation tasks with your finger or stylus, but you may want to be able to use the context menu (right-click menu).
 
-Here we use ``evdev-rce`` to make RasPad's right-click command still available.
+Then you will need to download a ``Touchégg`` app. Enter the following command to install it.
 
-Enter the following command to install the required software.
 
-.. raw:: html
-
-    <run></run>
-
-.. code-block:: shell
-
-    sudo apt install build-essential libevdev2 libevdev-dev -y
-    git clone 'https://github.com/PeterCxy/evdev-right-click-emulation.git'
-    cd 'evdev-right-click-emulation'
-
-Enter the following command to build.
+**For 32-bit OS:**
 
 .. raw:: html
 
@@ -25,9 +14,24 @@ Enter the following command to build.
 
 .. code-block:: shell
 
-  make all
+    wget https://github.com/JoseExposito/touchegg/releases/download/2.0.14/touchegg_2.0.14_armhf.deb
+    sudo apt install ./touchegg_2.0.14_armhf.deb
 
-Copy the file to the ``/usr`` directory.
+
+**For 64-bit OS:**
+
+.. raw:: html 
+
+    <run></run>
+
+.. code-block:: shell
+
+    wget https://github.com/JoseExposito/touchegg/releases/download/2.0.14/touchegg_2.0.14_arm64.deb
+    sudo apt install ./touchegg_2.0.14_arm64.deb
+
+
+
+After restarting, you can double-tap the screen to bring up the context menu.
 
 .. raw:: html
 
@@ -35,45 +39,23 @@ Copy the file to the ``/usr`` directory.
 
 .. code-block:: shell
 
-  sudo cp 'out/evdev-rce' '/usr/local/bin/'
-
-Make it executable.
-
-.. raw:: html
-
-    <run></run>
-
-.. code-block:: shell
-
-  sudo chmod +x '/usr/local/bin/evdev-rce'
-
-Modify the ``/etc/rc.local`` file to enable boot-up.
-
-.. raw:: html
-
-    <run></run>
-
-.. code-block:: shell
-
-  sudo nano /etc/rc.local
-
-After entering ``rc.local``, add the following command before ``exit 0``.
-
-.. code-block:: shell
-
-    sudo /usr/local/bin/evdev-rce &
-
-Press ``Ctrl+C`` -> ``Y`` to exit and save the ``rc.local`` file, and then run ``sudo reboot`` to restart RasPad.
-
-.. raw:: html
-
-    <run></run>
-
-.. code-block:: shell
-
-  sudo reboot
-
-After restarting, you can long press on the RasPad desktop and see if the right click function appears.
+    sudo reboot
 
 .. image:: img/right_click.png
   :align: center
+
+
+
+**Available gestures**
+
+Swipe
+  Swipe gestures are executed when three or more fingers are moved synchronously in the same direction.
+  Note that three is the minimum number of fingers that Touchégg allows for swipe gestures on touchpads and two on touchscreens.
+
+Pinch
+  Pinch gestures are executed when two or more fingers are located on the touchpad and are either changing the relative distance to each other (pinching) or are changing the relative angle (rotate).
+
+Tap
+  Tap gestures are executed when two or more fingers "click" on the touchscreen.
+
+For more details please check `Touchégg <https://github.com/JoseExposito/touchegg>`_. 
