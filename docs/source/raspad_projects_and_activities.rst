@@ -10,7 +10,7 @@ To get started using the RasPad, this chapter includes some interesting and chal
   retro_games_console
   3d_printer_monitor
   iot/homeassistant/home_assistant
-  iot/cloud4RPi
+  iot/blynk/blynk
   gpio_programming
 
 .. toctree::
