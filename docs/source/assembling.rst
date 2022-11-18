@@ -6,7 +6,7 @@ ASSEMBLY INSTRUCTIONS
 3. Orient the fan so the logo is facing the exterior vent, then attach the fan with the four PWA1.7X9 screws.
 4. Finally, attach the back cover with five M2.5x4 screws.
 
-.. image:: img/assemble_ful.jpg
+.. image:: img/assembling/assemble_ful.jpg
   :width: 800
   :align: center
 
@@ -14,112 +14,98 @@ ASSEMBLY INSTRUCTIONS
 **Detailed Assembly Steps**
 
 
-Take out the RasPad, then flip it over to remove the back cover.
+#. Take out the RasPad and turn it over, unscrew the screws and remove the back cover.
 
-.. image:: img/assembling1.png
-  :width: 600
-  :align: center
+    .. image:: img/assembling/assembling15.png
+        :width: 600
+        :align: center
 
-Below is an image of the internal structure of the RasPad. 
+    Below is an image of the internal structure of the RasPad. 
 
-.. note:: 
+    .. note:: 
 
-  Avoid pressing on the two speakers during assembly.
+        Avoid pressing on the two speakers during assembly.
 
 
-.. image:: img/assembling2.png
-  :width: 800
-  :align: center
+    .. image:: img/assembling/assembling2.png
+        :width: 800
+        :align: center
 
-Connect the Ethernet port of the Raspberry Pi and the Main Board.
+#. Insert the Micro SD card board into the Raspberry Pi's Micro SD card slot.
 
-.. image:: img/assembling3.png
-  :width: 600
-  :align: center
+    .. image:: img/assembling/assembling8.png
+        :width: 600
+        :align: center
 
-Connect the Raspberry Pi's USB 3.0 port to the RasPad Main Board with the included USB cable.
+#. Insert the other end of the FFC cable into the RasPad button board.
 
-.. image:: img/assembling4.png
-  :width: 600
-  :align: center
+    .. note::
+        This step can be skipped if the Micro SD card board has already been connected to the button board in the RasPad that you received.
 
-Connect the two Micro-HDMI cables.
+    * Use two fingers to gently pull up the tab on the top of the CSI connector.
+    * Insert the FFC cable, being sure that it is fully inserted and not crooked.
+    * Use your fingers to press it firmly from both sides.
+    * Pull up the tab gently again if it is not attached properly and can't pull out the FFC forcefully.
 
-.. note:: 
+    .. image:: img/assembling/ezgif.com-gif-maker.webp
 
-  Cable A is slightly longer than Cable B.
-  
+#. Attach the Raspberry Pi with 4 M2.5x4 screws.
 
-.. image:: img/assembling5.png
-  :width: 600
-  :align: center
+    .. image:: img/assembling/assemble_2.png
+        :width: 600
+        :align: center
 
-Connect the USB-C cable.
+#. Connect the Ethernet, USB to USB, 2 Mrico HDMI and Type-C cables in order.
 
-.. image:: img/assembling6.png
-  :width: 600
-  :align: center
+    .. note::
+        It doesn't matter if you find the direction of two Mrico HDMI cables slightly off, you can just rotate them manually.
 
-Plug the FFC cable into the Micro SD card board.
+    .. image:: img/assembling/assemble_1.png
+        :width: 600
+        :align: center
 
-.. image:: img/assembling7.png
-  :width: 600
-  :align: center
+#. Attach the three heat-sinks to the Raspberry Pi, and insert the Accel SHIM module for the RasPad's auto-rotate function.
 
-Insert the Micro SD card board into the Raspberry Pi's Micro SD card slot.
+    .. note::
+        Accel SHIM module has no soldered pins so you need to observe whether the 6 holes are in contact with the Raspberry Pi pins. If not, gently break the Raspberry Pi pins.
 
-.. image:: img/assembling8.png
-  :width: 600
-  :align: center
+    .. image:: img/assembling/assembling11.png
+        :width: 600
+        :align: center
 
-Insert the other end of the FFC cable into the RasPad button board.
+#. To use the GPIO pins of the Raspberry Pi, connect a 40-pin GPIO ribbon cable to the Raspberry Pi, and route the ribbon cable out the top of the case.
 
-.. image:: img/assembling9.png
-  :width: 600
-  :align: center
+    .. note::
+        If you don't need to build the circuit with RasPad, you can skip this step.
 
-Fix the Raspberry Pi with 4 M2.5x4 screws.
+    .. image:: img/assembling/assembling12.png
+        :width: 600
+        :align: center
 
-.. image:: img/assembling10.png
-  :width: 600
-  :align: center
+#. Attach the fan onto the back cover with four PWA1.7X9 screws.
 
-Attach the three heat-sinks to the Raspberry Pi, and insert the Accel SHIM module for the RasPad's auto-rotate function.
+    .. note::
 
-.. image:: img/assembling11.png
-  :width: 600
-  :align: center
+        The logo faces out towards the exterior vent.
 
-To use the GPIO pins of the Raspberry Pi, connect a 40-pin GPIO ribbon cable to the Raspberry Pi, and route the ribbon cable out the top of the case.
+    .. image:: img/assembling/assembling13.png
+        :width: 600
+        :align: center
 
-.. image:: img/assembling12.png
-  :width: 600
-  :align: center
+#. Connect the fan to the Main Board.
 
-Attach the fan onto the back cover with four PWA1.7X9 screws.
+    .. image:: img/assembling/assembling14.png
+        :align: center
 
-.. note::
+#. Attach the back cover with five M2.5x4 screws.
 
-  The logo faces out towards the exterior vent.
+    .. note::
 
-.. image:: img/assembling13.png
-  :width: 600
-  :align: center
+        Do not force the back cover in place. If the enclosure is hard to connect, or the screw-holes do not line up correctly, please check that there are no internal components interfering with the fit before trying to reattach the back cover.
 
-Connect the fan to the Main Board.
-
-.. image:: img/assembling14.png
-  :align: center
-
-Attach the back cover with five M2.5x4 screws.
-
-.. note::
-
-  Do not force the back cover in place. If the enclosure is hard to connect, or the screw-holes do not line up correctly, please check that there are no internal components interfering with the fit before trying to reattach the back cover.
-
-.. image:: img/assembling15.png
-  :width: 600
-  :align: center
+    .. image:: img/assembling/assembling15.png
+        :width: 600
+        :align: center
 
 
 

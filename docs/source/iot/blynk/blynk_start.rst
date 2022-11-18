@@ -9,13 +9,9 @@ In the event that you trigger widgets on Blynk, your Raspberry Pi will print out
 
 Follow the steps below, and note that you must do them in order and not skip any chapters.
 
-.. note:: Before starting this project, you have to :ref:`bk_config`. 
-
 
 1. Configuring the Blynk
 --------------------------
-
-
 
 1. Go to the `BLYNK <https://blynk.io/>`_ and click **START FREE**. 
 
