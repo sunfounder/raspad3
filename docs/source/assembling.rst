@@ -10,6 +10,12 @@ ASSEMBLY INSTRUCTIONS
   :width: 800
   :align: center
 
+You can also follow the video to assemble RasPad 3 step by step.
+
+.. raw:: html
+
+    <iframe width="700" height="400" src="https://www.youtube.com/embed/b_hm0I4QhAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 **Detailed Assembly Steps**
 
@@ -82,7 +88,7 @@ ASSEMBLY INSTRUCTIONS
         :width: 600
         :align: center
 
-#. Attach the fan onto the back cover with four PWA1.7X9 screws.
+#. Attach the fan onto the back cover with four PWA1.7x9 screws.
 
     .. note::
 
