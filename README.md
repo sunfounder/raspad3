@@ -1,4 +1,4 @@
-# TS-10L 10.1'' Touch Screen
+# Raspad 3
 This repository is for Raspad 3. you can buy it on [our website](https://www.sunfounder.com/), or search sunfounder in Amazon.
 
 Quick Links:
