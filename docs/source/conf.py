@@ -92,6 +92,10 @@ gettext_compact = False # Support for generating the contents of the folders ins
 
 rst_epilog = """
 
+.. |link_sf_facebook| raw:: html
+
+    <a href="https://bit.ly/3V13K74" target="_blank">here</a>
+
 .. |link_pc_monitor| raw:: html
 
     <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC monitoring device</a>
