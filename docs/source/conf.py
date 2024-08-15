@@ -100,4 +100,12 @@ rst_epilog = """
 
     <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC monitoring device</a>
 
+.. |link_RasPad_3| raw:: html
+
+    <a href="https://www.sunfounder.com/products/raspberrypi-tablet-raspad?_pos=1&_sid=82d795b9a&_ss=r" target="_blank">Purchase Link for RasPad 3</a>
+
+.. |link_RasPad| raw:: html
+
+    <a href="https://www.sunfounder.com/products/raspberrypi-tablet-raspad?_pos=1&_sid=82d795b9a&_ss=r" target="_blank">RasPad 3</a>
+
 """

@@ -12,9 +12,10 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
-RasPad 3-A Portable Raspberry Pi Pad
+|link_RasPad|-A Portable Raspberry Pi Pad
 =================================================
 
+* |link_RasPad_3|
 
 .. image:: img/raspad.png
     :width: 600
