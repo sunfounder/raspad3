@@ -23,7 +23,7 @@ This tutorial has written very detailed installation steps, which may take a lon
 
 .. note::
 
-    * The Raspberry Pi Operating System will need to be installed on the micro-SD card before starting the tutorial. Please refer to :ref:`INSTALL THE RASPBERRY PI OS`.
+    * The Raspberry Pi Operating System will need to be installed on the micro-SD card before starting the tutorial. Please refer to :ref:`install_os`.
     * **Webcam Option**: A camera will need to be installed on the RasPad for webcam use. Please refer to the tutorial: :ref:`Assemble the Camera Module`.
     * **Touch UI Option**: A new Raspberry Pi image might not have an auto start function for Touch UI. Please refer to the tutorial: :ref:`Touch UI` to configure the settings for the Touch UI function.
 

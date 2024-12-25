@@ -21,7 +21,7 @@ Fix Raspberry Pi boot problems
 
 1. Check whether the power indicator is on, if it does not, you need to charge the RasPad or try a different power source. It is best to use the power supply provided by SunFounder.
 2. You might be booting but not getting video output. First, check that your cables are connected properly. Take them all out and reconnect them. Try a different HDMI cable if you have one.
-3. Take out the microSD card and use Raspberry Pi Imager to flash a new installation of Raspberry Pi OS to it (see :ref:`Install the Raspberry Pi OS`). 
+3. Take out the microSD card and use Raspberry Pi Imager to flash a new installation of Raspberry Pi OS to it (see :ref:`install_os`). 
 4. Try a different microSD card.
 
 Can't detect Micro SD card?
@@ -36,7 +36,7 @@ Screen can not be rotated?
 
 The reason is that the built-in Accel SHIM module has not been calibrated.
 
-Please refer to: :ref:`Install Rotating Screen Service`.
+Please refer to: :ref:`screen_resolution_or_orientation`.
 
 About sleep problem
 -----------------------------

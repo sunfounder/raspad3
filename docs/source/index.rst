@@ -58,8 +58,9 @@ The steps are as follows.
     
     safety_notices
     components_list
+    install_the_os
     assembling
-    quick_user_guide
+    resolution_orientation
     raspad_launcher
     interfaces_introduction
     raspad_projects_and_activities
