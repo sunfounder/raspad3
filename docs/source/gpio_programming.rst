@@ -42,7 +42,7 @@ Da Vinci Kit for Raspberry Pi
 
 **教程链接**
 
-https://docs.sunfounder.com/projects/davinci-kit-for-raspberry-pi/en/latest/
+https://docs.sunfounder.com/projects/davinci-kit/en/latest/
 
 
 **产品链接**
