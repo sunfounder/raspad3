@@ -56,7 +56,7 @@ Da Vinci Kit for Raspberry Pi
 
 **Tutorial Link**
 
-https://docs.sunfounder.com/projects/davinci-kit-for-raspberry-pi/en/latest/
+https://docs.sunfounder.com/projects/davinci-kit/en/latest/
 
 
 **Product Link**
