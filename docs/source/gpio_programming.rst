@@ -53,9 +53,9 @@ https://docs.sunfounder.com/projects/davinci-kit/en/latest/
 
 日本: https://www.amazon.co.jp/dp/product/B083SJQXCL
 
-加拿大: https://www.amazon.de/dp/B07WYX8M76
+加拿大: https://www.amazon.ca/dp/product/B07KH2C215	
 
-德国: https://www.amazon.ca/dp/product/B07KH2C215				
+德国: https://www.amazon.de/dp/B07WYX8M76
 
 
 
