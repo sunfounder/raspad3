@@ -67,9 +67,9 @@ United States: https://www.amazon.com/dp/product/B07WV2HYC6
 
 Japan: https://www.amazon.co.jp/dp/product/B083SJQXCL
 
-Canada: https://www.amazon.de/dp/B07WYX8M76
+Canada: https://www.amazon.ca/dp/product/B07KH2C215	
 
-Germany: https://www.amazon.ca/dp/product/B07KH2C215				
+Germany: https://www.amazon.de/dp/B07WYX8M76
 
 
 
