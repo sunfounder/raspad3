@@ -15,6 +15,13 @@
 FAQ
 ===============
 
+Regarding Raspberry Pi 5 Compatibility
+------------------------------------------
+
+* The current Raspad is fully compatible only with the Raspberry Pi 4. Adapting it for the Raspberry Pi 5 may result in **power supply issues**.
+
+* The Raspad motherboard has a maximum output current of 3A, whereas the Raspberry Pi 5 requires up to 5A during operation. Consequently, users may experience low-voltage warnings or power shortages, which could lead to unexpected shutdowns, restarts, or power loss. Replacing the power adapter will not resolve this issue.
+* At this time, we have no plans to modify the hardware for Raspberry Pi 5 compatibility.
 
 Fix Raspberry Pi boot problems
 ---------------------------------------
